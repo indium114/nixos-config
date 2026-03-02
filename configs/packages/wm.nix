@@ -22,7 +22,10 @@
     vicinae
     colloid-gtk-theme
     papirus-icon-theme
-    catppuccin-gtk
+    (catppuccin-gtk.override {
+      variant = "mocha";
+      accents = [ "mauve" ];
+    })
     catppuccin-cursors.mochaMauve
     catppuccin-papirus-folders
     pipes

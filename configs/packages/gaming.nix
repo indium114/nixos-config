@@ -11,6 +11,7 @@
     prismlauncher
     osu-lazer-bin
     classicube
+    wineWow64Packages.stable
   ];
 
   programs.steam.enable = true;

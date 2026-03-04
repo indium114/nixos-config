@@ -9,6 +9,7 @@
     loupe
     rhythmbox
     kdePackages.kdenlive
+    playerctl
   ];
 
   programs.obs-studio.enable = true;

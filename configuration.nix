@@ -9,6 +9,7 @@
     ./configs/boot.nix
     ./configs/catppuccin.nix
     ./configs/environment.nix
+    ./configs/garbagecollector.nix
     ./configs/hardware.nix
     ./configs/locale.nix
     ./configs/networking.nix

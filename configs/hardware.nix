@@ -12,4 +12,6 @@
   zramSwap.enable = true;
 
   powerManagement.cpuFreqGovernor = "performance";
+
+  hardware.bluetooth.enable = true;
 }

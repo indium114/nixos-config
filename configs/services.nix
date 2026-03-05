@@ -34,4 +34,6 @@
     config.common.default = "gtk";
   };
 
+  services.blueman.enable = true;
+
 }

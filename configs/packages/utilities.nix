@@ -51,6 +51,9 @@
     wl-clipboard
     keepassxc
     fractal
+    nh
+    nix-output-monitor
+    nvd
   ];
 
   programs.appimage.enable = true;

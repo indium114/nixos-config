@@ -12,6 +12,9 @@
     osu-lazer-bin
     classicube
     wineWow64Packages.stable
+    joycond
+    joycond-cemuhook
+    cemu
   ];
 
   programs.steam.enable = true;

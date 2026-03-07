@@ -54,6 +54,8 @@
     nix-output-monitor
     nvd
     carapace
+    gnupg
+    pass
   ];
 
   programs.appimage.enable = true;

@@ -11,6 +11,7 @@
     ./configs/environment.nix
     ./configs/garbagecollector.nix
     ./configs/hardware.nix
+    ./configs/kanata.nix
     ./configs/locale.nix
     ./configs/networking.nix
     ./configs/packages/development.nix

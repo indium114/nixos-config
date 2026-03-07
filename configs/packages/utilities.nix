@@ -53,6 +53,7 @@
     nh
     nix-output-monitor
     nvd
+    carapace
   ];
 
   programs.appimage.enable = true;

@@ -55,7 +55,6 @@
     nvd
     carapace
     pass
-    qtpass
     zellij
   ];
 

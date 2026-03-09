@@ -6,6 +6,7 @@
   imports = [
     ./configs/tmux.nix
     ./configs/starship.nix
+    ./configs/ghostty.nix
   ];
 
   home.username = "distrorockhopper";

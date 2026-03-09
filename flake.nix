@@ -4,6 +4,10 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     catppuccin.url = "github:catppuccin/nix";
     uwu-colors.url = "github:q60/uwu_colors";
+    home-manager = {
+      url = "github:nix-community/home-manager";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
     vicinae = {
       url = "github:vicinaehq/vicinae";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -73,6 +77,10 @@
         inputs.catppuccin.nixosModules.catppuccin
         ./configuration.nix
       ];
+    };
+
+    homeConfigurations."distrorockhopper" = inputs.home-manager.lib.homeManagerConfiguration {
+      modules = [ ./home.nix ];
     };
 
   };

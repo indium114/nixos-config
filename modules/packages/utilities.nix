@@ -55,6 +55,7 @@
     proton-authenticator
     protonvpn-gui
     wireguard-tools
+    home-manager
   ];
 
   programs.appimage.enable = true;

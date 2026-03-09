@@ -58,7 +58,11 @@
     };
   };
 
-  outputs = inputs: {
+  outputs = inputs:
+    let
+      pkgs = inputs.nixpkgs.legacyPackages.x86_64-linux;
+    in
+   {
 
     nixosConfigurations.frosties = inputs.nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
@@ -80,6 +84,7 @@
     };
 
     homeConfigurations."distrorockhopper" = inputs.home-manager.lib.homeManagerConfiguration {
+      inherit pkgs;
       modules = [ ./home.nix ];
     };
 

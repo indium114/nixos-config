@@ -1,0 +1,9 @@
+name: "Zen Browser"
+description: "Browse the Internet"
+icon: "󰖟"
+command: "zen --new-window & sleep 5"
+context:
+  - name: "New window"
+    command: "zen --new-window & sleep 5"
+  - name: "New Private window"
+    command: "zen --private-window & sleep 5"

@@ -1,0 +1,4 @@
+name: "Fractal"
+description: "Matrix chat"
+icon: "󰭻"
+command: "fractal & sleep 5"

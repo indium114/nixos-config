@@ -1,0 +1,4 @@
+name: "Steam"
+description: "Play Steam games & sleep 5"
+icon: ""
+command: "steam & sleep 5"

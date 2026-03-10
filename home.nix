@@ -21,6 +21,7 @@
     ./configs/television.nix
     ./configs/bat.nix
     ./configs/helix.nix
+    ./configs/mangohud.nix
   ];
 
   home.username = "distrorockhopper";

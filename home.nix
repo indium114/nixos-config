@@ -12,6 +12,7 @@
     ./configs/waybar.nix
     ./configs/gtk.nix
     ./configs/cava.nix
+    ./configs/hyprlock.nix
   ];
 
   home.username = "distrorockhopper";

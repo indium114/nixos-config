@@ -11,6 +11,7 @@
     ./configs/catppuccin.nix
     ./configs/waybar.nix
     ./configs/gtk.nix
+    ./configs/cava.nix
   ];
 
   home.username = "distrorockhopper";

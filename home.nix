@@ -18,6 +18,7 @@
     ./configs/lazygit.nix
     ./configs/btop.nix
     ./configs/nushell.nix
+    ./configs/television.nix
   ];
 
   home.username = "distrorockhopper";

@@ -4,6 +4,6 @@
 
 {
 
-  xdg.configFile."spyglass/applications".source = "./spyglass/applications";
+  xdg.configFile."spyglass/applications".source = ./spyglass/applications;
 
 }

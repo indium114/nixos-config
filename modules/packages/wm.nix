@@ -26,7 +26,6 @@
       accents = [ "mauve" ];
     })
     catppuccin-cursors.mochaMauve
-    catppuccin-papirus-folders
     pipes
   ];
 

@@ -13,6 +13,7 @@
     gh
     soft-serve
     jujutsu
+    lazyjj
   ];
 
   programs.direnv = {

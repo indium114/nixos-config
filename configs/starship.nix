@@ -19,7 +19,7 @@
         truncation_symbol = "…/";
       };
       nix_shell = {
-        format = "[$symbol](bold cyan)";
+        format = "[$symbol](bold cyan) ";
         symbol = "󱄅";
       };
     };

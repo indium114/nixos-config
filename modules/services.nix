@@ -22,7 +22,6 @@
     enable = true;
     packages = [ pkgs.dconf ];
   };
-  services.xserver.enable = true;
 
   xdg.portal = {
     enable = true;

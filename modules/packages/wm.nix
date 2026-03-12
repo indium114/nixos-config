@@ -18,7 +18,6 @@
     rmpc
     btop
     wlogout
-    vicinae
     colloid-gtk-theme
     papirus-icon-theme
     (catppuccin-gtk.override {

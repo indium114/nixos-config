@@ -8,10 +8,6 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    vicinae = {
-      url = "github:vicinaehq/vicinae";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
     recall = {
       url = "github:stikypiston/recall";
       inputs.nixpkgs.follows = "nixpkgs";

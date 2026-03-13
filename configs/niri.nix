@@ -106,15 +106,9 @@
     }
 
     window-rule {
-    	match app-id=r#"^zen"#
-    	opacity 0.9
-    	draw-border-with-background false
-    }
-
-    window-rule {
-    	match app-id=r#"^nemo"#
-    	opacity 0.9
-    	draw-border-with-background false
+        match {}
+        opacity 0.87
+        draw-border-with-background false
     }
 
     window-rule {

@@ -10,7 +10,7 @@
       prSections = [
         {
           title = "Open Pull Requests";
-          filters = "is:open is:pr org:StikyPiston";
+          filters = "is:open is:pr org:indium114";
         }
         {
           title = "My Pull Requests";

@@ -8,6 +8,7 @@
   nix.package = pkgs.lixPackageSets.stable.lix;
 
   imports = [
+    ./hardware-configuration.nix
     ./modules/boot.nix
     ./modules/catppuccin.nix
     ./modules/environment.nix
@@ -24,12 +25,12 @@
     ./modules/packages/multimedia.nix
     ./modules/packages/productivity.nix
     ./modules/packages/utilities.nix
+    ./modules/packages/web.nix
     ./modules/packages/wm.nix
     ./modules/security.nix
     ./modules/services.nix
     ./modules/users.nix
     ./modules/virtualisation.nix
-    ./hardware-configuration.nix
   ];
 
   # DO NOT EDIT

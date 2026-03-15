@@ -14,6 +14,7 @@
     soft-serve
     jujutsu
     lazyjj
+    just
   ];
 
   programs.direnv = {

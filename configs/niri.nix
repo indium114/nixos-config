@@ -272,7 +272,7 @@
         Mod+Ctrl+Grave { spawn "vicinae" "toggle"; }
     	Mod+Return { spawn "ghostty"; }
     	Mod+Shift+Grave { spawn "wlogout" "-b" "4"; }
-    	Mod+Semicolon { spawn "flatpak " "run " "app.zen_browser.zen"; }
+    	Mod+Semicolon { spawn "librewolf"; }
     	Mod+Alt+L allow-when-locked=true { spawn "hyprlock"; }
     	Mod+N { spawn "swaync-client" "-t"; }
     	Mod+M { spawn "ghostty" "-e" "rmpc"; }

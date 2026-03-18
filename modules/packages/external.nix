@@ -10,7 +10,6 @@
 
   environment.systemPackages = [
     inputs.recall.packages.${pkgs.stdenv.hostPlatform.system}.recall
-    inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
     inputs.hocusfocus.packages.${pkgs.stdenv.hostPlatform.system}.hocusfocus
     inputs.uwu-colors.packages.${pkgs.stdenv.hostPlatform.system}.default
     inputs.fastcards.packages.${pkgs.stdenv.hostPlatform.system}.fastcards

@@ -12,10 +12,6 @@
       url = "github:indium114/recall";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    zen-browser = {
-      url = "github:youwen5/zen-browser-flake";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
     hocusfocus = {
       url = "github:indium114/hocusfocus";
       inputs.nixpkgs.follows = "nixpkgs";

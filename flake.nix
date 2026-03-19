@@ -68,6 +68,24 @@
         }
         inputs.catppuccin.nixosModules.catppuccin
         ./configuration.nix
+        inputs.home-manager.nixosModules.home-manager
+
+        {
+          home-manager.useGlobalPkgs = true;
+          home-manager.useUserPackages = true;
+
+          # Pass inputs to home.nix
+          home-manager.extraSpecialArgs = {
+            inherit inputs;
+          };
+
+          home-manager.users.distrorockhopper = {
+            imports = [
+              ./home.nix
+              inputs.catppuccin.homeModules.catppuccin
+            ];
+          };
+        }
       ];
     };
 

@@ -12,4 +12,4 @@
 ## NixOS
 
 - [ ] Install `asciinema`
-- [ ] Make home-manager config part of NixOS modules in *flake.nix* (nixosConfigurations."frosties" output)
+- [x] Make home-manager config part of NixOS modules in *flake.nix* (nixosConfigurations."frosties" output)

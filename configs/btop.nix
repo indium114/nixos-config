@@ -3,7 +3,9 @@
 }:
 
 {
+
   programs.btop = {
     enable = true;
   };
+
 }

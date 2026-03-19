@@ -3,6 +3,7 @@
 }:
 
 {
+
   programs.tmux = {
     enable = true;
 
@@ -83,4 +84,5 @@
       set -g status-style "bg=#{?client_prefix,#f38ba8,#1e1e2e},fg=#cdd6f4"
     '';
   };
+
 }

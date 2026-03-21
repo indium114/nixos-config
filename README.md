@@ -5,5 +5,5 @@ My personal **NixOS** config!
 ## Commit convention
 
 ```text
-nixos|home-manager|other(hostname): change
+nixos|home-manager|global|other(hostname): change
 ```

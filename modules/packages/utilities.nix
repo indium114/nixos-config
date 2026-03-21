@@ -13,7 +13,6 @@
     man
     figlet
     zoxide
-    lazygit
     delta
     networkmanagerapplet
     gum
@@ -49,8 +48,6 @@
     carapace
     pass
     proton-authenticator
-    protonvpn-gui
-    wireguard-tools
     home-manager
     transmission_4-gtk
   ];

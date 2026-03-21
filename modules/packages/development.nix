@@ -14,6 +14,7 @@
     soft-serve
     just
     tea
+    lazygit
   ];
 
   programs.direnv = {

@@ -1,11 +1,9 @@
 {
-  pkgs,
   ...
 }:
 
 {
   nixpkgs.config.allowUnfree = true;
-  nix.package = pkgs.lixPackageSets.stable.lix;
 
   imports = [
     ./hardware-configuration.nix

@@ -3,6 +3,7 @@
 ## Global
 
 - [x] License the repo (probably MIT or BSD 2-clause)
+- [ ] Switch from `Lix` back to regular Nix
 
 ## home-manager
 

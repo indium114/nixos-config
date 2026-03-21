@@ -10,6 +10,7 @@
 - [ ] Try `stylix`
 - [ ] Set up `wlr-which-key`
 - [ ] Re-colour Tmux (make the left-hand side mauve to match the overall accent)
+- [ ] Unbind `escape` key in Kanata (forces me to use the closer Caps Lock bind)
 
 ## NixOS
 

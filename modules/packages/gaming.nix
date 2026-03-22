@@ -18,7 +18,6 @@
 
   programs.steam = {
     enable = true;
-    gamescopeSession.enable = true;
     extraCompatPackages = with pkgs; [
       proton-ge-bin
     ];
@@ -31,7 +30,6 @@
   };
 
   programs.gamemode.enable = true;
-  programs.gamescope.enable = true;
   services.joycond.enable = true;
 
 }

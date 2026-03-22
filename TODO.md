@@ -19,4 +19,4 @@
 - [ ] Set garbage collector to only keep 4 generations, instead of deleting generations older than a week
 - [x] Remove unneeded packages
 - [ ] Fix joycond
-- [ ] Unbind `escape` key in Kanata (forces me to use the closer Caps Lock bind)
+- [x] Unbind `escape` key in Kanata (forces me to use the closer Caps Lock bind)

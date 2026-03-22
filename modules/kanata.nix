@@ -22,7 +22,7 @@
           )
 
           (deflayer base
-            @modtap f24
+            @modtap _
           )
         '';
       };

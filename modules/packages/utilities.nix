@@ -50,6 +50,7 @@
     proton-authenticator
     home-manager
     transmission_4-gtk
+    cliphist
   ];
 
   programs.appimage.enable = true;

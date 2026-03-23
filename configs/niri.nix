@@ -91,6 +91,7 @@
     // spawn-at-startup "vicinae" "server" "--open"
     spawn-at-startup "nm-applet"
     spawn-at-startup "protonvpn-app" "--start-minimized"
+    spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
 
     screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
 

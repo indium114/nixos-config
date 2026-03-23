@@ -81,16 +81,13 @@
         }
     }
 
-    // spawn-at-startup "/home/distrorockhopper/.local/bin/mountshare"
     spawn-at-startup "swaync"
     spawn-at-startup "waybar"
     spawn-at-startup "swww-daemon"
     spawn-at-startup "swww" "img" "${./wallpaper.jpg}"
     spawn-at-startup "xwayland-satellite"
-    spawn-at-startup "alertify"
     spawn-at-startup "systemctl" "--user" "start" "hyprpolkitagent"
     spawn-at-startup "mpd"
-    spawn-at-startup "indicator-stickynotes"
     // spawn-at-startup "vicinae" "server" "--open"
     spawn-at-startup "nm-applet"
     spawn-at-startup "protonvpn-app" "--start-minimized"

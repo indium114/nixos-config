@@ -10,17 +10,10 @@
 #  \___\___/|_| |_|_| |_|\__, (_)_| |_|\__,_|
 #                        |___/
 
-$env.PATH = ( $env.PATH | prepend "/home/linuxbrew/.linuxbrew/bin" )
-$env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/.local/share/bob/nvim-bin" )
-$env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/bin" )
-$env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/.local/share/bob/nvim-bin" )
-$env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/Documents/PlaydateSDK-3.0.2/bin" )
 $env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/Applications" )
 $env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/.scripts" )
-$env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/.cargo/bin" )
 $env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/.local/share/gem/ruby/3.4.0/bin" )
 $env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/.local/bin" )
-$env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/go/bin" )
 
 use std/dirs
 
@@ -36,7 +29,6 @@ $env.config.show_banner = false
 
 $env.BAT_THEME         = "Catppuccin Mocha"
 $env.EDITOR            = "hx"
-$env.PLAYDATE_SDK_PATH = "/home/distrorockhopper/Documents/PlaydateSDK-3.0.2"
 $env.GOPATH            = "/home/distrorockhopper/go"
 $env.JUST_CHOOSER      = "tv"
 

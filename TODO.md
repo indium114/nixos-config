@@ -15,3 +15,4 @@
 - [ ] Install `steelix` and `steel`
 - [ ] Set garbage collector to only keep 4 generations, instead of deleting generations older than a week
 - [ ] Fix joycond
+- [ ] Switch `swww` for `awww`

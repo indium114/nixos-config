@@ -14,7 +14,6 @@
     figlet
     zoxide
     delta
-    networkmanagerapplet
     gum
     chafa
     yt-dlp
@@ -41,7 +40,6 @@
     file-roller
     wl-clipboard
     keepassxc
-    fractal
     nh
     nix-output-monitor
     nvd
@@ -49,7 +47,6 @@
     pass
     proton-authenticator
     home-manager
-    transmission_4-gtk
     cliphist
   ];
 

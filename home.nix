@@ -1,4 +1,5 @@
 {
+  config,
   ...
 }:
 
@@ -29,6 +30,8 @@
     ./configs/ytsurf.nix
     ./configs/zathura.nix
   ];
+
+  gtk.gtk4.theme = config.gtk.theme;
 
   home.username = "distrorockhopper";
   home.homeDirectory = "/home/distrorockhopper";

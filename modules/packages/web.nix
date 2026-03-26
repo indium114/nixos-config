@@ -7,7 +7,7 @@
 
   environment.systemPackages = with pkgs; [
     librewolf
-    protonvpn-gui
+    proton-vpn
     wireguard-tools
     fractal
     transmission_4-gtk

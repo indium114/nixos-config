@@ -88,10 +88,10 @@
     spawn-at-startup "xwayland-satellite"
     spawn-at-startup "systemctl" "--user" "start" "hyprpolkitagent"
     spawn-at-startup "mpd"
-    // spawn-at-startup "vicinae" "server" "--open"
     spawn-at-startup "nm-applet"
     spawn-at-startup "protonvpn-app" "--start-minimized"
     spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
+    spawn-at-startup "blueman-applet"
 
     screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
 

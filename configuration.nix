@@ -5,6 +5,10 @@
 {
 
   nixpkgs.config.allowUnfree = true;
+  nix.config.trusted-users = [
+    "root"
+    "distrorockhopper"
+  ];
 
   imports = [
     ./hardware-configuration.nix

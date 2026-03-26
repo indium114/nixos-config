@@ -8,6 +8,7 @@
 - [ ] Set up `wlr-which-key`
 - [ ] Re-colour Tmux (make the left-hand side mauve to match the overall accent)
 - [ ] Install some Helix plugins through `steel`
+- [ ] Look into `https://github.com/gvolpe/niri-scratchpad`
 
 ## NixOS
 

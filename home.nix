@@ -16,7 +16,6 @@
     ./configs/helix.nix
     ./configs/hyprlock.nix
     ./configs/lazygit.nix
-    ./configs/librewolf.nix
     ./configs/mangohud.nix
     ./configs/niri.nix
     ./configs/nushell.nix

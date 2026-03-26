@@ -48,6 +48,7 @@
     proton-authenticator
     home-manager
     cliphist
+    passff-host
   ];
 
   programs.appimage.enable = true;

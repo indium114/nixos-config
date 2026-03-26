@@ -46,57 +46,58 @@
     };
   };
 
-  outputs = inputs:
+  outputs =
+    inputs:
     let
       pkgs = inputs.nixpkgs.legacyPackages.x86_64-linux;
     in
-   {
+    {
 
-    nixosConfigurations.frosties = inputs.nixpkgs.lib.nixosSystem {
-      system = "x86_64-linux";
+      nixosConfigurations.frosties = inputs.nixpkgs.lib.nixosSystem {
+        system = "x86_64-linux";
 
-      specialArgs = {
-        inherit inputs;
+        specialArgs = {
+          inherit inputs;
+        };
+
+        modules = [
+          {
+            nix.settings.experimental-features = [
+              "nix-command"
+              "flakes"
+            ];
+          }
+          inputs.catppuccin.nixosModules.catppuccin
+          ./configuration.nix
+          inputs.home-manager.nixosModules.home-manager
+
+          {
+            home-manager.useGlobalPkgs = true;
+            home-manager.useUserPackages = true;
+
+            # Pass inputs to home.nix
+            home-manager.extraSpecialArgs = {
+              inherit inputs;
+            };
+
+            home-manager.users.distrorockhopper = {
+              imports = [
+                ./home.nix
+                inputs.catppuccin.homeModules.catppuccin
+              ];
+            };
+          }
+        ];
       };
 
-      modules = [
-        {
-          nix.settings.experimental-features = [
-            "nix-command"
-            "flakes"
-          ];
-        }
-        inputs.catppuccin.nixosModules.catppuccin
-        ./configuration.nix
-        inputs.home-manager.nixosModules.home-manager
+      homeConfigurations."distrorockhopper" = inputs.home-manager.lib.homeManagerConfiguration {
+        inherit pkgs;
+        modules = [
+          ./home.nix
+          inputs.catppuccin.homeModules.catppuccin
+        ];
+      };
 
-        {
-          home-manager.useGlobalPkgs = true;
-          home-manager.useUserPackages = true;
-
-          # Pass inputs to home.nix
-          home-manager.extraSpecialArgs = {
-            inherit inputs;
-          };
-
-          home-manager.users.distrorockhopper = {
-            imports = [
-              ./home.nix
-              inputs.catppuccin.homeModules.catppuccin
-            ];
-          };
-        }
-      ];
     };
-
-    homeConfigurations."distrorockhopper" = inputs.home-manager.lib.homeManagerConfiguration {
-      inherit pkgs;
-      modules = [
-        ./home.nix
-        inputs.catppuccin.homeModules.catppuccin
-      ];
-    };
-
-  };
 
 }

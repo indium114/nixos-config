@@ -11,6 +11,7 @@
     kdePackages.kdenlive
     playerctl
     vlc
+    pavucontrol
   ];
 
   programs.obs-studio.enable = true;

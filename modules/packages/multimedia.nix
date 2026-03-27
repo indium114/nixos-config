@@ -10,7 +10,7 @@
     rhythmbox
     kdePackages.kdenlive
     playerctl
-    cine
+    vlc
   ];
 
   programs.obs-studio.enable = true;

@@ -183,6 +183,24 @@
         "type": "github"
       }
     },
+    "flake-utils_9": {
+      "inputs": {
+        "systems": "systems_9"
+      },
+      "locked": {
+        "lastModified": 1731533236,
+        "narHash": "sha256-l0KFg5HjrsfsO/JpG+r7fRrqm12kzFHyUHqHCVpMMbI=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "11707dc2f618dd54ca8739b309ec4fc024de578b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
     "flow_state": {
       "inputs": {
         "nixpkgs": [
@@ -367,6 +385,7 @@
         "pricetag": "pricetag",
         "recall": "recall",
         "satchel": "satchel",
+        "sorta": "sorta",
         "spyglass": "spyglass",
         "theatre": "theatre",
         "uwu-colors": "uwu-colors",
@@ -394,9 +413,30 @@
         "type": "github"
       }
     },
-    "spyglass": {
+    "sorta": {
       "inputs": {
         "flake-utils": "flake-utils_7",
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1774715979,
+        "narHash": "sha256-lZEFG5wp0l5iIC5MKXbst/SGJut/7HAHMV7sSe3eoYw=",
+        "owner": "indium114",
+        "repo": "sorta",
+        "rev": "2279b9122b0990b06c32dbde5e654544eca3113a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "indium114",
+        "repo": "sorta",
+        "type": "github"
+      }
+    },
+    "spyglass": {
+      "inputs": {
+        "flake-utils": "flake-utils_8",
         "nixpkgs": [
           "nixpkgs"
         ]
@@ -416,6 +456,21 @@
       }
     },
     "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    },
+    "systems_10": {
       "locked": {
         "lastModified": 1681028828,
         "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
@@ -552,7 +607,7 @@
     },
     "theatre": {
       "inputs": {
-        "flake-utils": "flake-utils_8",
+        "flake-utils": "flake-utils_9",
         "nixpkgs": [
           "nixpkgs"
         ]
@@ -573,7 +628,7 @@
     },
     "utils": {
       "inputs": {
-        "systems": "systems_9"
+        "systems": "systems_10"
       },
       "locked": {
         "lastModified": 1731533236,

@@ -19,6 +19,7 @@
     inputs.satchel.packages.${pkgs.stdenv.hostPlatform.system}.satchel
     inputs.jots.packages.${pkgs.stdenv.hostPlatform.system}.jots
     inputs.flow_state.packages.${pkgs.stdenv.hostPlatform.system}.default
+    inputs.sorta.packages.${pkgs.stdenv.hostPlatform.system}.sorta
     pkgs.ytsurf
   ];
 }

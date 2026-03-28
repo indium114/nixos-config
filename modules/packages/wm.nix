@@ -26,6 +26,7 @@
     catppuccin-cursors.mochaMauve
     pipes
     sunsetr
+    swayidle
   ];
 
   programs.niri.enable = true;

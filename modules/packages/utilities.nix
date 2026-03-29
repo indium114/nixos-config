@@ -49,6 +49,7 @@
     home-manager
     cliphist
     passff-host
+    gnome-disk-utility
   ];
 
   programs.appimage.enable = true;

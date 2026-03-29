@@ -8,6 +8,7 @@
     zathura
     libreoffice
     aerc
+    drawing
   ];
 
 }

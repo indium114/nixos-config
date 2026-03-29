@@ -12,7 +12,6 @@
         layer = "top";
         modules-center = [
           "tray"
-          "custom/pacman"
           "temperature"
           "pulseaudio"
           "battery"
@@ -266,13 +265,6 @@
 
       #temperature.critical {
         color: @red;
-      }
-
-      #custom-pacman {
-        color: @mauve;
-        /* border-right: 2px solid @mauve; */
-        padding-top: 2px;
-        padding-bottom: 2px;
       }
 
       #custom-spacer {

@@ -284,7 +284,6 @@
 
         // Spawn applications
         Mod+Grave { spawn "ghostty" "--title=Spyglass" "-e" "spyglass" "+new-window"; }
-        Mod+Ctrl+Grave { spawn "vicinae" "toggle"; }
     	Mod+Return { spawn "ghostty"; }
     	Mod+Shift+Grave { spawn "wlogout" "-b" "4"; }
     	Mod+Semicolon { spawn "librewolf"; }

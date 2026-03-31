@@ -208,15 +208,15 @@
         ]
       },
       "locked": {
-        "lastModified": 1774632867,
+        "lastModified": 1774889897,
         "narHash": "sha256-T2xttUBe1xjdo4qGTwp9IXoUA0OQDW/op8oYZM1yivw=",
-        "owner": "indium114",
+        "owner": "stan-breaks",
         "repo": "flow_state",
-        "rev": "e83e2aa2acdbdc81d7a5ca1b24a9f2066d79b6a4",
+        "rev": "c43df4c9efb3b3ebf564b83c5a66f7a07c831ca3",
         "type": "github"
       },
       "original": {
-        "owner": "indium114",
+        "owner": "stan-breaks",
         "repo": "flow_state",
         "type": "github"
       }

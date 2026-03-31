@@ -45,7 +45,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     flow_state = {
-      url = "github:indium114/flow_state";
+      url = "github:stan-breaks/flow_state";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     sorta = {

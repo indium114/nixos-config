@@ -37,6 +37,12 @@ alias man = tldr
 alias sf  = superfile
 alias cal = cal -t
 
+alias Ta = recall add
+alias Tl = recall list
+alias Tb = recall busy
+alias Tc = recall clearcompleted
+alias Td = recall done
+
 alias cd = z
 
 alias da = dirs add

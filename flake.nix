@@ -9,7 +9,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     recall = {
-      url = "github:indium114/recall";
+      url = "github:indium114/recall/next";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     hocusfocus = {

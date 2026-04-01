@@ -42,6 +42,7 @@ alias Tl = recall list
 alias Tb = recall busy
 alias Tc = recall clearcompleted
 alias Td = recall done
+alias Tn = recall backburner
 
 alias cd = z
 

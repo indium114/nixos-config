@@ -14,6 +14,7 @@
     networkmanagerapplet
     aria2
     tuba
+    pipeline
   ];
 
 }

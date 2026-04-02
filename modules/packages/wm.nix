@@ -8,7 +8,7 @@
     xwayland-satellite
     waybar
     ghostty
-    swww
+    awww
     fastfetch
     hyprpolkitagent
     cava

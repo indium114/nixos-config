@@ -16,5 +16,5 @@
 - [ ] Install `asciinema`
 - [ ] Install `steelix` and `steel`
 - [ ] Fix joycond
-- [ ] Switch `swww` for `awww`
+- [x] Switch `swww` for `awww`
 - [x] Replace `protonvpn-gui` with `proton-vpn`

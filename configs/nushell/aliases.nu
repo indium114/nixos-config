@@ -16,7 +16,7 @@ alias lt = eza --icons=always --group-directories-first --tree --level 1
 
 alias mv    = mv -v
 alias cp    = cp -v
-alias rm    = rm -v
+alias rm    = rubbish -v
 alias mkdir = mkdir -v
 alias tree  = eza --icons=always --group-directories-first --tree --level 1
 alias ncdu  = ncdu --color dark --show-percent

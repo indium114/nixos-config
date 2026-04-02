@@ -20,6 +20,7 @@
     inputs.jots.packages.${pkgs.stdenv.hostPlatform.system}.jots
     inputs.flow_state.packages.${pkgs.stdenv.hostPlatform.system}.default
     inputs.sorta.packages.${pkgs.stdenv.hostPlatform.system}.sorta
+    inputs.sheets.packages.${pkgs.stdenv.hostPlatform.system}.default
     pkgs.ytsurf
   ];
 }

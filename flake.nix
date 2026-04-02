@@ -52,6 +52,10 @@
       url = "github:indium114/sorta";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    sheets = {
+      url = "github:maaslalani/sheets";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =

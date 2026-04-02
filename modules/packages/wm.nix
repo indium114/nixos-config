@@ -27,6 +27,7 @@
     pipes
     sunsetr
     swayidle
+    wl-kbptr
   ];
 
   programs.niri.enable = true;

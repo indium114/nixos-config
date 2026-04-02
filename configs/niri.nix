@@ -284,12 +284,13 @@
 
         // Spawn applications
         Mod+Grave { spawn "ghostty" "--title=Spyglass" "-e" "spyglass" "+new-window"; }
-    	Mod+Return { spawn "ghostty"; }
-    	Mod+Shift+Grave { spawn "wlogout" "-b" "4"; }
-    	Mod+Semicolon { spawn "librewolf"; }
-    	Mod+Alt+L allow-when-locked=true { spawn "hyprlock"; }
-    	Mod+N { spawn "swaync-client" "-t"; }
-    	Mod+M { spawn "ghostty" "-e" "rmpc"; }
+    	  Mod+Return { spawn "ghostty"; }
+    	  Mod+Shift+Grave { spawn "wlogout" "-b" "4"; }
+    	  Mod+Semicolon { spawn "librewolf"; }
+    	  Mod+Alt+L allow-when-locked=true { spawn "hyprlock"; }
+    	  Mod+N { spawn "swaync-client" "-t"; }
+    	  Mod+M { spawn "ghostty" "-e" "rmpc"; }
+    	  Mod+Space { spawn "wl-kbptr" }
     }
 
     // Overview settings

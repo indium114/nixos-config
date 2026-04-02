@@ -56,6 +56,10 @@
       url = "github:maaslalani/sheets";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    rubbish = {
+      url = "github:indium114/rubbish";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =

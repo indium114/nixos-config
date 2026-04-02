@@ -87,8 +87,8 @@
     }
 
     // Startup apps
-    spawn-at-startup "swww-daemon"
-    spawn-at-startup "swww" "img" "${./wallpaper.jpg}"
+    spawn-at-startup "awww-daemon"
+    spawn-at-startup "awww" "img" "${./wallpaper.jpg}"
     spawn-at-startup "xwayland-satellite"
     spawn-at-startup "systemctl" "--user" "start" "hyprpolkitagent"
     spawn-at-startup "mpd"

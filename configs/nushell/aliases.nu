@@ -40,7 +40,7 @@ alias cal = cal -t
 alias Ta = recall add
 alias Tl = recall list
 alias Tb = recall busy
-alias Tc = recall clearcompleted
+alias Tc = recall clean
 alias Td = recall done
 alias Tn = recall backburner
 

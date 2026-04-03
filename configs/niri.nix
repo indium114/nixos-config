@@ -290,7 +290,10 @@
     	  Mod+Alt+L allow-when-locked=true { spawn "hyprlock"; }
     	  Mod+N { spawn "swaync-client" "-t"; }
     	  Mod+M { spawn "ghostty" "-e" "rmpc"; }
+
+    	  /// wlr-kbptr stuff
     	  Mod+Space { spawn "wl-kbptr"; }
+    	  Mod+Alt+Space { spawn "wlrctl" "pointer" "click"; }
     }
 
     // Overview settings

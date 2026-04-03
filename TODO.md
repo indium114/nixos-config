@@ -18,4 +18,4 @@
 - [ ] Fix joycond
 - [x] Switch `swww` for `awww`
 - [x] Replace `protonvpn-gui` with `proton-vpn`
-- [ ] Try `wl-kbptr`
+- [x] Try `wl-kbptr`

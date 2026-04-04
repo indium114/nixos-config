@@ -89,6 +89,7 @@
           inputs.stylix.nixosModules.catppuccin
           inputs.home-manager.nixosModules.home-manager
           ./configuration.nix
+          ./stylix.nix
 
           {
             home-manager.useGlobalPkgs = true;

@@ -9,7 +9,7 @@
     librewolf
     proton-vpn
     wireguard-tools
-    # fractal
+    fractal
     transmission_4-gtk
     networkmanagerapplet
     aria2

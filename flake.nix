@@ -86,7 +86,7 @@
               "flakes"
             ];
           }
-          inputs.stylix.nixosModules.catppuccin
+          inputs.stylix.nixosModules.stylix
           inputs.home-manager.nixosModules.home-manager
           ./configuration.nix
           ./stylix.nix

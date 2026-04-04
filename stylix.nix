@@ -25,7 +25,7 @@
       base0E = "#c1a6f7";
       base0F = "#ebb2b2";
     };
-    stylix = {
+    targets = {
       gtksourceview.enable = false;
     };
   };

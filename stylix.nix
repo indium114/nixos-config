@@ -6,6 +6,7 @@
 
   stylix = {
     enable = true;
+    image = ./configs/wallpaper.jpg;
     base16Scheme = {
       base00 = "#2b2b3b";
       base01 = "#2e2e47";
@@ -24,7 +25,9 @@
       base0E = "#c1a6f7";
       base0F = "#ebb2b2";
     };
-    image = ./configs/wallpaper.jpg;
+    stylix = {
+      gtksourceview.enable = false;
+    };
   };
 
 }

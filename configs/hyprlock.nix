@@ -1,4 +1,5 @@
 {
+  lib,
   ...
 }:
 
@@ -7,7 +8,7 @@
   programs.hyprlock = {
     enable = true;
     settings = {
-      background = [
+      background = lib.mkForce [
         {
           path = "screenshot";
           blur_passes = 3;
@@ -18,7 +19,7 @@
         }
       ];
 
-      label = [
+      label = lib.mkForce [
         # date
         {
           text = ''cmd[update:1000] echo -e "$(date +"%A, %B %d")"'';
@@ -50,7 +51,7 @@
           valign = "center";
         }
       ];
-      image = [
+      image = lib.mkForce [
         # Profile picture
         {
           path = "${./pfp.png}";
@@ -61,7 +62,7 @@
           valign = "center";
         }
       ];
-      input-field = [
+      input-field = lib.mkForce [
         # Password input
         {
           size = "170, 45";

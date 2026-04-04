@@ -13,7 +13,6 @@
   imports = [
     ./hardware-configuration.nix
     ./modules/boot.nix
-    ./modules/catppuccin.nix
     ./modules/environment.nix
     ./modules/garbagecollector.nix
     ./modules/hardware.nix

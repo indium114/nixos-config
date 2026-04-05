@@ -1,0 +1,4 @@
+name: "Chess"
+description: "Play Chess"
+icon: "󰡘"
+command: "gnome-chess & sleep 5"

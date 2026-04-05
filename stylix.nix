@@ -7,6 +7,7 @@
 
   stylix = {
     enable = true;
+    autoEnable = true;
     image = ./configs/wallpaper.jpg;
     base16Scheme = {
       base00 = "#2b2b3b";

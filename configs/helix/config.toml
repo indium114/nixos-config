@@ -1,3 +1,5 @@
+theme = "stylix"
+
 [editor]
 line-number              = "absolute"
 cursorline               = true

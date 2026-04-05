@@ -15,6 +15,8 @@
     just
     tea
     lazygit
+    android-studio
+    android-tools
   ];
 
   programs.direnv = {

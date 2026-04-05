@@ -1,4 +1,5 @@
 {
+  pkgs,
   ...
 }:
 
@@ -24,6 +25,24 @@
       base0D = "#a6dcf7";
       base0E = "#c1a6f7";
       base0F = "#ebb2b2";
+    };
+    fonts = {
+      serif = {
+        package = pkgs.lato;
+        name = "Lato Black";
+      };
+      sansSerif = {
+        package = pkgs.lato;
+        name = "Lato Black";
+      };
+      monospace = {
+        package = pkgs.martian-mono;
+        name = "Martian Mono Cn Md";
+      };
+      emoji = {
+        package = pkgs.noto-fonts-color-emoji;
+        name = "Noto Color Emoji";
+      };
     };
     targets = {
       gtksourceview.enable = false;

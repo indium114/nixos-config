@@ -14,6 +14,7 @@
     wineWow64Packages.stable
     joycond-cemuhook
     cemu
+    gnome-chess
   ];
 
   programs.steam = {

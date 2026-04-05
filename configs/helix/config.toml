@@ -1,4 +1,4 @@
-theme = "stylix"
+theme = "sorbet"
 
 [editor]
 line-number              = "absolute"

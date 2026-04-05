@@ -84,13 +84,13 @@
 
 # Inline annotations
 # ------------------
-"important"  = { bg = "maroon", fg = "black", modifiers = ["bold"] }
-"question"   = { bg = "peach", fg = "black", modifiers = ["bold"] }
-"study"      = { bg = "blue",   fg = "black", modifiers = ["bold"] }
-"definition" = { bg = "mauve",  fg = "black", modifiers = ["bold"] }
-"example"    = { bg = "green",  fg = "black", modifiers = ["bold"] }
-"review"     = { bg = "peach",  fg = "black", modifiers = ["bold"] }
-"memorise"   = { bg = "pink",   fg = "black", modifiers = ["bold"] }
+"important"  = { bg = "base08", fg = "base00", modifiers = ["bold"] }
+"question"   = { bg = "base09", fg = "base00", modifiers = ["bold"] }
+"study"      = { bg = "base07",   fg = "base00", modifiers = ["bold"] }
+"definition" = { bg = "base0E",  fg = "base00", modifiers = ["bold"] }
+"example"    = { bg = "base0B",  fg = "base00", modifiers = ["bold"] }
+"review"     = { bg = "base0A",  fg = "base00", modifiers = ["bold"] }
+"memorise"   = { bg = "base0F",   fg = "base00", modifiers = ["bold"] }
 
 [palette]
 base00 = "#2b2b3b" # Default Background

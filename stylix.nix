@@ -47,6 +47,7 @@
     };
     targets = {
       gtksourceview.enable = false;
+      limine.image.enable = false;
     };
   };
 

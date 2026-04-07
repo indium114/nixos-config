@@ -17,7 +17,7 @@ $env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/.local/bin" )
 
 use std/dirs
 
-source catppuccin_mocha.nu
+source sorbet.nu
 source starship.nu
 source tv.nu
 source zoxide.nu

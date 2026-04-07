@@ -21,7 +21,7 @@
         ];
         "clock" = {
           rotate = 90;
-          format = "<span foreground='#cba6f7'> </span>{:%H:%M}";
+          format = "<span foreground='#c1a6f7'> </span>{:%H:%M}";
           tooltip-format = "<big>{ =%Y %B}</big>\n<tt><small>{calendar}</small></tt>";
         };
         "battery" = {
@@ -31,12 +31,12 @@
             critical = 15;
           };
           format = "<span size='13000' foreground='#89dceb'>{icon} </span> {capacity}%";
-          format-warning = "<span size='13000' foreground='#fab387'>{icon} </span> {capacity}%";
-          format-critical = "<span size='13000' foreground='#f38ba8'>{icon} </span> {capacity}%";
-          format-charging = "<span size='13000' foreground='#a6e3a1'> </span>{capacity}%";
-          format-plugged = "<span size='13000' foreground='#cba6f7'> </span>{capacity}%";
-          format-alt = "<span size='13000' foreground='#cba6f7'>{icon} </span> {time}";
-          format-full = "<span size='13000' foreground='#cba6f7'>󱟢 </span>{capacity}%";
+          format-warning = "<span size='13000' foreground='#f7cfa6'>{icon} </span> {capacity}%";
+          format-critical = "<span size='13000' foreground='#f9a4b2'>{icon} </span> {capacity}%";
+          format-charging = "<span size='13000' foreground='#dcf7a6'> </span>{capacity}%";
+          format-plugged = "<span size='13000' foreground='#a6b3f7'> </span>{capacity}%";
+          format-alt = "<span size='13000' foreground='#a6f7cf'>{icon} </span> {time}";
+          format-full = "<span size='13000' foreground='#a6f7cf'>󱟢 </span>{capacity}%";
           format-icons = [
             ""
             ""
@@ -121,7 +121,7 @@
 
       window#waybar {
         background: transparent;
-        color: @mauve;
+        color: @base0E;
         /* transition-property: background-color; */
         /* transition-duration: 0.1s; */
         /* border-right: 1px solid @surface0; */
@@ -141,7 +141,7 @@
 
       button:hover {
         background: inherit;
-        color: @mauve;
+        color: @base0E;
       }
 
       #workspaces button {
@@ -150,18 +150,18 @@
       }
 
       #workspaces button.focused {
-        color: @mauve;
+        color: @base0E;
       }
 
       #workspaces button.active {
-        background: linear-gradient(@mauve, @blue);
+        background: linear-gradient(@base0E, @base07);
         border-radius: 16px;
-        color: @crust;
+        color: @base02;
         transition: all 0.3s ease-in-out;
       }
 
       #workspaces button.urgent {
-        background-color: @red;
+        background-color: @base08;
       }
 
       #pulseaudio,
@@ -194,17 +194,17 @@
       }
 
       #clock {
-        color: @mauve;
+        color: @base0E;
         /* border-right: 2px solid @flamingo; */
       }
 
       #clock.date {
-        color: @mauve;
-        /* border-right: 2px solid @mauve; */
+        color: @base0E;
+        /* border-right: 2px solid @base0E; */
       }
 
       #pulseaudio {
-        color: @mauve;
+        color: @base0E;
         /* border-right: 2px solid @pink; */
       }
 
@@ -223,8 +223,8 @@
       }
 
       #battery {
-        color: @mauve;
-        /* border-right: 2px solid @mauve; */
+        color: @base0E;
+        /* border-right: 2px solid @base0E; */
       }
 
       /* If workspaces is the leftmost module, omit left margin */
@@ -245,8 +245,8 @@
       }
 
       #mpris {
-        color: @maroon;
-        /* border-right: 2px solid @maroon; */
+        color: @base0F;
+        /* border-right: 2px solid @base0F; */
       }
 
       #tray {
@@ -255,16 +255,16 @@
       }
 
       #temperature {
-        color: @mauve;
-        /* border-right: 2px solid @mauve; */
+        color: @base0E;
+        /* border-right: 2px solid @base0E; */
       }
 
       #temperature.warning {
-        color: @yellow;
+        color: @base0A;
       }
 
       #temperature.critical {
-        color: @red;
+        color: @base08;
       }
 
       #custom-spacer {

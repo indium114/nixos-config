@@ -1,12 +1,15 @@
 {
+  lib,
   ...
 }:
 
 {
 
-  xdg.configFile."helix/themes/catppuccin_mocha.toml".source = ./helix/catppuccin_mocha.toml;
-  xdg.configFile."helix/runtime/queries/markdown/highlights.scm".source = ./helix/highlights.scm;
-  xdg.configFile."helix/config.toml".source = ./helix/config.toml;
-  xdg.configFile."helix/languages.toml".source = ./helix/languages.toml;
+  programs.helix.enable = true;
+  xdg.configFile."helix/themes/sorbet.toml".source = lib.mkForce ./helix/sorbet.toml;
+  xdg.configFile."helix/runtime/queries/markdown/highlights.scm".source =
+    lib.mkForce ./helix/highlights.scm;
+  xdg.configFile."helix/config.toml".source = lib.mkForce ./helix/config.toml;
+  xdg.configFile."helix/languages.toml".source = lib.mkForce ./helix/languages.toml;
 
 }

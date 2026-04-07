@@ -13,7 +13,7 @@
     gh
     soft-serve
     just
-    tea
+    forgejo-cli
     lazygit
   ];
 

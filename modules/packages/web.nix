@@ -15,6 +15,7 @@
     aria2
     tuba
     pipeline
+    dino
   ];
 
 }

@@ -13,7 +13,6 @@
     classicube
     wineWow64Packages.stable
     joycond-cemuhook
-    cemu
     gnome-chess
   ];
 

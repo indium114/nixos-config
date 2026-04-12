@@ -15,7 +15,13 @@
     ];
   };
   services.avahi.enable = true;
-  services.displayManager.ly.enable = true;
+  services.displayManager.ly = {
+    enable = true;
+    settings = {
+      asterisk = "■";
+      bigclock = "en";
+    };
+  };
   services.udisks2.enable = true;
   services.gvfs.enable = true;
   services.dbus = {

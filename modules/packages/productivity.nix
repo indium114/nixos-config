@@ -9,6 +9,7 @@
     libreoffice
     aerc
     drawing
+    obsidian
   ];
 
 }

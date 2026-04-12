@@ -1,0 +1,4 @@
+name: "Obsidian"
+description: "Take notes in Markdown"
+icon: "󰠮"
+command: "obsidian & sleep 5"

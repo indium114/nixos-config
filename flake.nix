@@ -84,8 +84,8 @@
             ];
           }
           inputs.catppuccin.nixosModules.catppuccin
-          ./configuration.nix
           inputs.home-manager.nixosModules.home-manager
+          ./configuration.nix
 
           {
             home-manager.useGlobalPkgs = true;
@@ -98,8 +98,8 @@
 
             home-manager.users.distrorockhopper = {
               imports = [
-                ./home.nix
                 inputs.catppuccin.homeModules.catppuccin
+                ./home.nix
               ];
             };
           }
@@ -109,8 +109,8 @@
       homeConfigurations."distrorockhopper" = inputs.home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
         modules = [
-          ./home.nix
           inputs.catppuccin.homeModules.catppuccin
+          ./home.nix
         ];
       };
 

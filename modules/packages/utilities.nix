@@ -50,7 +50,6 @@
     cliphist
     passff-host
     gnome-disk-utility
-    popsicle
   ];
 
   programs.appimage.enable = true;

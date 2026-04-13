@@ -7,6 +7,7 @@
   imports = [
     ./configs/bat.nix
     ./configs/btop.nix
+    ./configs/catppuccin.nix
     ./configs/cava.nix
     ./configs/defaults.nix
     ./configs/fastfetch.nix

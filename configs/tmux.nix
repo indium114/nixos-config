@@ -48,7 +48,7 @@
       set -g status-interval 5
 
       # Style
-      set -g status-style "bg=#2b2b3b,fg=#f3e2f3"
+      set -g status-style "bg=#1e1e2e,fg=#cdd6f4"
       set -g status-justify left
 
       # Remove default separators
@@ -58,30 +58,30 @@
       set -g status-left-length 40
 
       set -g status-left "\
-      #[bg=#c1a6f7] #[bg=#2b2b3b] \
-      #[fg=#c1a6f7,bold]#H \
+      #[bg=#89b4fa] #[bg=#1e1e2e] \
+      #[fg=#89b4fa,bold]#H \
       #[default] "
 
       set -g window-status-format "\
-      #[bg=#2b2b3b,fg=#a6b3f7] \
-      #[bg=#313244,fg=#a6b3f7] #I #W \
-      #[bg=#2b2b3b,fg=#313224] "
+      #[bg=#1e1e2e,fg=#cdd6f4] \
+      #[bg=#313244,fg=#cdd6f4] #I #W \
+      #[bg=#1e1e2e,fg=#313224] "
 
       set -g window-status-current-format "\
-      #[bg=#2b2b3b,fg=#2b2b3b,bold] \
-      #[bg=#c1a6f7,fg=#2b2b3b,bold] #I #W \
-      #[bg=#2b2b3b,fg=#c1a6f7] "
+      #[bg=#1e1e2e,fg=#1e1e2e,bold] \
+      #[bg=#89b4fa,fg=#1e1e2e,bold] #I #W \
+      #[bg=#1e1e2e,fg=#89b4fa] "
       set -g status-right-length 80
 
       set -g status-right "\
-      #[bg=#cba6f7,fg=#2b2b3b]  #(tmux display-message -p '#{pane_current_command}') \
+      #[bg=#cba6f7,fg=#1e1e2e]  #(tmux display-message -p '#{pane_current_command}') \
       #[default] \
-      #[bg=#dcf7a6,fg=#2b2b3b]  #S \
+      #[bg=#a6e3a1,fg=#1e1e2e]  #S \
       #[default] \
-      #[bg=#a6dcf7,fg=#2b2b3b]  #(uptime | sed 's/^[^,]*up *//; s/, *[[:digit:]]* user.*//; s/ day.*, */d /; s/ hr\\(s*\\).*/h/; s/ min\\(s*\\).*/m/; s/ sec\\(s*\\).*/s/; s/\\([0-9]\\{1,2\\}\\):\\([0-9]\\{1,2\\}\\)/\\1h \\2m/') \
+      #[bg=#74c7ec,fg=#1e1e2e]  #(uptime | sed 's/^[^,]*up *//; s/, *[[:digit:]]* user.*//; s/ day.*, */d /; s/ hr\\(s*\\).*/h/; s/ min\\(s*\\).*/m/; s/ sec\\(s*\\).*/s/; s/\\([0-9]\\{1,2\\}\\):\\([0-9]\\{1,2\\}\\)/\\1h \\2m/') \
       #[default]"
 
-      set -g status-style "bg=#{?client_prefix,#f9a4b2,#2b2b3b},fg=#a6b3f7"
+      set -g status-style "bg=#{?client_prefix,#f38ba8,#1e1e2e},fg=#cdd6f4"
     '';
   };
 

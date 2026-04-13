@@ -7,13 +7,18 @@
 
   gtk = {
     enable = true;
-    cursorTheme = {
-      name = "Bibata-Modern-Classic";
-      package = pkgs.bibata-cursors;
+    theme = {
+      name = "catppuccin-mocha-mauve-standard";
+      package = (
+        pkgs.catppuccin-gtk.override {
+          variant = "mocha";
+          accents = [ "mauve" ];
+        }
+      );
     };
-    iconTheme = {
-      package = pkgs.papirus-icon-theme;
-      name = "Papirus-Dark";
+    cursorTheme = {
+      name = "catppuccin-mocha-dark";
+      package = pkgs.catppuccin-cursors.mochaMauve;
     };
   };
 

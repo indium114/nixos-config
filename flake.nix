@@ -2,13 +2,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    catppuccin.url = "github:catppuccin/nix";
     uwu-colors.url = "github:q60/uwu_colors";
     home-manager = {
       url = "github:nix-community/home-manager";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-    stylix = {
-      url = "github:nix-community/stylix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     recall = {
@@ -86,10 +83,9 @@
               "flakes"
             ];
           }
-          inputs.stylix.nixosModules.stylix
-          inputs.home-manager.nixosModules.home-manager
+          inputs.catppuccin.nixosModules.catppuccin
           ./configuration.nix
-          ./stylix.nix
+          inputs.home-manager.nixosModules.home-manager
 
           {
             home-manager.useGlobalPkgs = true;
@@ -103,6 +99,7 @@
             home-manager.users.distrorockhopper = {
               imports = [
                 ./home.nix
+                inputs.catppuccin.homeModules.catppuccin
               ];
             };
           }
@@ -113,6 +110,7 @@
         inherit pkgs;
         modules = [
           ./home.nix
+          inputs.catppuccin.homeModules.catppuccin
         ];
       };
 

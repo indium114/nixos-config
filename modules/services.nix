@@ -33,8 +33,5 @@
   };
 
   services.blueman.enable = true;
-  services.tailscale = {
-    enable = true;
-  };
 
 }

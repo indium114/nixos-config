@@ -8,71 +8,62 @@
     enable = true;
     settings = {
       "$schema" = "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json";
-      "display" = {
-        "separator" = " ";
-      };
       "modules" = [
         "break"
+        "title"
         {
-          "key" = "╭───────────╮";
           "type" = "custom";
+          "format" = "─────────────────────────";
         }
         {
-          "key" = "│  user    │";
-          "type" = "title";
-        }
-        {
-          "key" = "│ 󰣖 os      │";
           "type" = "os";
+          "key" = "󰣖 ";
         }
         {
-          "key" = "│  device  │";
           "type" = "host";
+          "key" = " ";
         }
         {
-          "key" = "│  kernel  │";
           "type" = "kernel";
+          "key" = " ";
         }
         {
-          "key" = "│ 󰏗 pkgs    │";
           "type" = "packages";
+          "key" = "󰏗 ";
         }
         {
-          "key" = "│ 󱂬 wm      │";
           "type" = "wm";
+          "key" = "󱂬 ";
         }
         {
-          "key" = "│  shell   │";
           "type" = "shell";
+          "key" = " ";
         }
         {
-          "key" = "│  cpu     │";
           "type" = "cpu";
+          "key" = " ";
         }
         {
-          "key" = "│ 󰢮 gpu     │";
           "type" = "gpu";
+          "key" = "󰢮 ";
         }
         {
-          "key" = "│  ram     │";
           "type" = "memory";
+          "key" = " ";
         }
         {
-          "key" = "│  disk    │";
           "type" = "disk";
+          "key" = " ";
         }
         {
-          "key" = "│  battery │";
           "type" = "battery";
+          "key" = " ";
         }
+        "break"
         {
-          "key" = "│  palette │";
-          "symbol" = "circle";
           "type" = "colors";
-        }
-        {
-          "key" = "╰───────────╯";
-          "type" = "custom";
+          "key" = " ";
+          "symbol" = "circle";
         }
       ];
     };

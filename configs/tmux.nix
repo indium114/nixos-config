@@ -48,7 +48,7 @@
       set -g status-interval 5
 
       # Style
-      set -g status-style "bg=#1e1e2e,fg=#cdd6f4"
+      set -g status-style "bg=#1e1e2e,fg=#cba6f7"
       set -g status-justify left
 
       # Remove default separators
@@ -58,13 +58,13 @@
       set -g status-left-length 40
 
       set -g status-left "\
-      #[bg=#89b4fa] #[bg=#1e1e2e] \
-      #[fg=#89b4fa,bold]#H \
+      #[bg=#cba6f7] #[bg=#1e1e2e] \
+      #[fg=#cba6f7,bold]#H \
       #[default] "
 
       set -g window-status-format "\
-      #[bg=#1e1e2e,fg=#cdd6f4] \
-      #[bg=#313244,fg=#cdd6f4] #I #W \
+      #[bg=#1e1e2e,fg=#cba6f7] \
+      #[bg=#313244,fg=#cba6f7] #I #W \
       #[bg=#1e1e2e,fg=#313224] "
 
       set -g window-status-current-format "\
@@ -78,7 +78,7 @@
       #[default] \
       #[bg=#a6e3a1,fg=#1e1e2e]  #S \
       #[default] \
-      #[bg=#74c7ec,fg=#1e1e2e]  #(uptime | sed 's/^[^,]*up *//; s/, *[[:digit:]]* user.*//; s/ day.*, */d /; s/ hr\\(s*\\).*/h/; s/ min\\(s*\\).*/m/; s/ sec\\(s*\\).*/s/; s/\\([0-9]\\{1,2\\}\\):\\([0-9]\\{1,2\\}\\)/\\1h \\2m/') \
+      #[bg=#74c7ec,fg=#1e1e2e]  #(uptime | sed 's/^[^,]*up *//; s/, *[[:digit:]]* user.*//; s/ day.*, */d /; s/ hr\\(s*\\).*/h/; s/ min\\(s*\\).*/m/; s/ sec\\(s*\\).*/s/; s/\\([0-9]\\{1,2\\}\\):\\([0-9]\\{1,2\\}\\)/\\1h \\2m/') \
       #[default]"
 
       set -g status-style "bg=#{?client_prefix,#f38ba8,#1e1e2e},fg=#cdd6f4"

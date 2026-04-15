@@ -38,7 +38,7 @@ recall list
 fastcards amount
 hocusfocus currentsession
 # termfarm stats
-open ~/.scripts/motds.txt | lines | shuffle | first | $"󰆈 ($in)"
+open ~/.scripts/motds.txt | lines | shuffle | first | print $"󰆈 ($in)"
 
 $env.FZF_DEFAULT_OPTS = "
 		--tmux

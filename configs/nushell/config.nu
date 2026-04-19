@@ -14,6 +14,7 @@ $env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/Applications" )
 $env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/.scripts" )
 $env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/.local/share/gem/ruby/3.4.0/bin" )
 $env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/.local/bin" )
+$env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/go/bin" )
 
 use std/dirs
 

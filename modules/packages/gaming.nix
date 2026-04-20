@@ -12,7 +12,6 @@
     osu-lazer-bin
     classicube
     wineWow64Packages.stable
-    joycond-cemuhook
     gnome-chess
     mindustry
   ];

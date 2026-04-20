@@ -17,7 +17,6 @@
     gum
     chafa
     yt-dlp
-    vhs
     glow
     charm-freeze
     yazi
@@ -26,7 +25,6 @@
     ripgrep
     ncdu
     fd
-    superfile
     television
     lutgen
     ffmpeg
@@ -48,7 +46,6 @@
     proton-authenticator
     home-manager
     cliphist
-    passff-host
     gnome-disk-utility
   ];
 

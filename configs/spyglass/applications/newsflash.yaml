@@ -1,0 +1,4 @@
+name: "Newsflash"
+description: "Read RSS feeds"
+icon: ""
+command: "io.gitlab.news_flash.NewsFlash & sleep 5"

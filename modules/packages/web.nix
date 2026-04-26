@@ -16,6 +16,7 @@
     tuba
     pipeline
     dino
+    newsflash
   ];
 
 }

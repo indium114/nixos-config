@@ -1,4 +1,5 @@
 {
+  pkgs,
   ...
 }:
 
@@ -9,6 +10,7 @@
     XCURSOR_THEME = "catppuccin-mocha-dark";
     XCURSOR_SIZE = "24";
     NH_FLAKE = "/etc/nixos";
+    EDITOR = pkgs.helix;
   };
 
 }

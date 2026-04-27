@@ -12,6 +12,7 @@
     marksman
     pandoc
     typst
+    tinymist
   ];
 
 }

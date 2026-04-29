@@ -5,7 +5,6 @@
 
 {
   imports = [
-    ./configs/alacritty.nix
     ./configs/bat.nix
     ./configs/btop.nix
     ./configs/catppuccin.nix

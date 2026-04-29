@@ -97,7 +97,6 @@
     spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
     spawn-at-startup "blueman-applet"
     spawn-at-startup "sunsetr"
-    spawn-at-startup "alacritty" "--daemon"
     spawn-at-startup "swaync"
     spawn-at-startup "waybar"
 
@@ -284,7 +283,7 @@
         Mod+Shift+P { power-off-monitors; }
 
         // Spawn applications
-        Mod+Grave { spawn "alacritty" "-T" "Spyglass" "-e" "spyglass"; }
+        Mod+Grave { spawn "ghostty" "--title=Spyglass" "-e" "spyglass" "+new-window"; }
     	  Mod+Return { spawn "ghostty"; }
     	  Mod+Shift+Grave { spawn "wlogout" "-b" "4"; }
     	  Mod+Semicolon { spawn "librewolf"; }

@@ -22,6 +22,6 @@
     inputs.sorta.packages.${pkgs.stdenv.hostPlatform.system}.sorta
     inputs.sheets.packages.${pkgs.stdenv.hostPlatform.system}.default
     inputs.rubbish.packages.${pkgs.stdenv.hostPlatform.system}.rubbish
-    pkgs.ytsurf
+    # pkgs.ytsurf
   ];
 }

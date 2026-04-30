@@ -119,6 +119,9 @@
         match {}
         opacity 0.87
         draw-border-with-background false
+        background-effect {
+            blur true
+        }
     }
 
     window-rule {

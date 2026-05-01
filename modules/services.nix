@@ -33,5 +33,6 @@
   };
 
   services.blueman.enable = true;
+  services.flatpak.enable = true;
 
 }

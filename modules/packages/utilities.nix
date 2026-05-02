@@ -16,7 +16,7 @@
     delta
     gum
     chafa
-    # yt-dlp
+    yt-dlp
     glow
     charm-freeze
     yazi

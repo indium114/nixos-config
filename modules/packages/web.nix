@@ -13,8 +13,8 @@
     transmission_4-gtk
     networkmanagerapplet
     aria2
-    # tuba
-    # pipeline
+    tuba
+    pipeline
     dino
     newsflash
   ];

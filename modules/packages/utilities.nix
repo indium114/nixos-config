@@ -47,6 +47,7 @@
     home-manager
     cliphist
     gnome-disk-utility
+    unzip
   ];
 
   programs.appimage.enable = true;

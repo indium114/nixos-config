@@ -14,6 +14,7 @@
     wineWow64Packages.stable
     gnome-chess
     mindustry
+    cartridges
   ];
 
   programs.steam = {

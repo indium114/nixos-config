@@ -1,0 +1,4 @@
+name: "Cartridges"
+description: "Launch games"
+icon: "󰊗"
+command: "cartridges & sleep 5"

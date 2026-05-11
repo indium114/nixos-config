@@ -16,6 +16,7 @@
       "scanner"
       "libvirtd"
       "docker"
+      "dialout"
     ];
     shell = pkgs.nushell;
     packages = with pkgs; [ ];

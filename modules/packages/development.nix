@@ -16,6 +16,7 @@
     forgejo-cli
     lazygit
     arduino-ide
+    python313
   ];
 
   programs.direnv = {

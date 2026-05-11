@@ -5,9 +5,9 @@
 
 {
 
-  users.users.distrorockhopper = {
+  users.users.indium114 = {
     isNormalUser = true;
-    description = "DistroRockhopper";
+    description = "indium114";
     extraGroups = [
       "networkmanager"
       "wheel"

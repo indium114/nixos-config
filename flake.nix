@@ -96,7 +96,7 @@
               inherit inputs;
             };
 
-            home-manager.users.distrorockhopper = {
+            home-manager.users.indium114 = {
               imports = [
                 inputs.catppuccin.homeModules.catppuccin
                 ./home.nix
@@ -106,7 +106,7 @@
         ];
       };
 
-      homeConfigurations."distrorockhopper" = inputs.home-manager.lib.homeManagerConfiguration {
+      homeConfigurations."indium114" = inputs.home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
         modules = [
           inputs.catppuccin.homeModules.catppuccin

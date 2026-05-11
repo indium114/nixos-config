@@ -7,7 +7,7 @@
   nixpkgs.config.allowUnfree = true;
   nix.settings.trusted-users = [
     "root"
-    "distrorockhopper"
+    "indium114"
   ];
 
   imports = [

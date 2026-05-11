@@ -11,7 +11,7 @@
     enable = true;
     extraRules = [
       {
-        users = [ "distrorockhopper" ];
+        users = [ "indium114" ];
         groups = [ "wheel" ];
         persist = true;
         keepEnv = true;

@@ -15,6 +15,7 @@
     just
     forgejo-cli
     lazygit
+    arduino-ide
   ];
 
   programs.direnv = {

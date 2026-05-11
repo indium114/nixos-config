@@ -143,6 +143,16 @@
     	max-height 670
     }
 
+    /// Open Weather App at Home floating and small
+    window-rule {
+        match title=r#"^Weather App at Home$"#
+
+        open-floating true
+
+        max-width 514
+        max-height 566
+    }
+
     /// Open the Firefox picture-in-picture player as floating by default.
     window-rule {
         match app-id=r#"librewolf$"# title="^Picture-in-Picture$"

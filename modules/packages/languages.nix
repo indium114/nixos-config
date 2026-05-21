@@ -9,7 +9,6 @@
     tree-sitter
     nixfmt
     nixd
-    marksman
     pandoc
     typst
     tinymist

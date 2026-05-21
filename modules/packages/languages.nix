@@ -13,6 +13,7 @@
     pandoc
     typst
     tinymist
+    markdown-oxide
   ];
 
 }

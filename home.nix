@@ -5,6 +5,7 @@
 
 {
   imports = [
+    ./configs/aerc.nix
     ./configs/bat.nix
     ./configs/btop.nix
     ./configs/catppuccin.nix

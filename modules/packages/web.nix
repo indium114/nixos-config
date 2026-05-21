@@ -17,6 +17,7 @@
     pipeline
     dino
     newsflash
+    hydroxide
   ];
 
 }

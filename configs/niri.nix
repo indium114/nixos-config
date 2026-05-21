@@ -99,6 +99,7 @@
     spawn-at-startup "sunsetr"
     spawn-at-startup "swaync"
     spawn-at-startup "waybar"
+    spawn-at-startup "hydroxide" "serve"
 
     /// lock after 7 minutes of inactivity
     spawn-at-startup "swayidle" "-w" "timeout" "420" "hyprlock" "before-sleep" "hyprlock"

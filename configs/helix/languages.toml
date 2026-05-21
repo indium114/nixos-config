@@ -1,12 +1,12 @@
 [[language]]
 name = "markdown"
-language-servers = [ "uwu-colors", "marksman" ]
+language-servers = [ "uwu-colors", "markdown-oxide" ]
 
 [language-server.uwu-colors]
 command = "uwu_colors"
 
-[language-server.marksman]
-command = "marksman"
+[language-server.markdown-oxide]
+command = "markdown-oxide"
 
 [language.soft-wrap]
 enable            = true

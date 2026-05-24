@@ -29,17 +29,19 @@ source completers.nu
 source direnv.nu
 
 $env.config.show_banner = false
+$env.config.edit_mode   = "vi"
 
-$env.BAT_THEME         = "Catppuccin Mocha"
-$env.EDITOR            = "hx"
-$env.GOPATH            = "/home/indium114/go"
-$env.JUST_CHOOSER      = "tv"
+$env.BAT_THEME                  = "Catppuccin Mocha"
+$env.EDITOR                     = "hx"
+$env.GOPATH                     = "/home/indium114/go"
+$env.JUST_CHOOSER               = "tv"
+$env.PROMPT_INDICATOR_VI_INSERT = ""
+$env.PROMPT_INDICATOR_VI_NORMAL = ": "
 
 
 recall list
 fastcards amount
 hocusfocus currentsession
-# termfarm stats
 open ~/.scripts/motds.txt | lines | shuffle | first | print $"󰆈 ($in)"
 
 $env.FZF_DEFAULT_OPTS = "

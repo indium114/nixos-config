@@ -155,6 +155,9 @@
     window-rule {
         match app-id=r#"librewolf$"# title="^Picture-in-Picture$"
         open-floating true
+
+        max-width 645
+        max-height 344
     }
 
     /// Block password managers from screen capture

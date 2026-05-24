@@ -27,6 +27,7 @@ source zoxide.nu
 source aliases.nu
 source completers.nu
 source direnv.nu
+source keybinds.nu
 
 $env.config.show_banner = false
 $env.config.edit_mode   = "vi"

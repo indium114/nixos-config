@@ -69,8 +69,8 @@
 
       set -g window-status-current-format "\
       #[bg=#1e1e2e,fg=#1e1e2e,bold] \
-      #[bg=#89b4fa,fg=#1e1e2e,bold] #I #W \
-      #[bg=#1e1e2e,fg=#89b4fa] "
+      #[bg=#cba6f7,fg=#1e1e2e,bold] #I #W \
+      #[bg=#1e1e2e,fg=#cba6f7] "
       set -g status-right-length 80
 
       set -g status-right "\

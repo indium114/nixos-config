@@ -6,7 +6,13 @@
 
   networking.hostName = "frosties";
   networking.networkmanager.enable = true;
-  networking.firewall.enable = false;
+  networking.firewall = {
+    enable = true;
+    allowedTCPPorts = [
+      22
+      80
+    ];
+  };
 
   services.tailscale = {
     enable = true;

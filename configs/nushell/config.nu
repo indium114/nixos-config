@@ -38,6 +38,7 @@ $env.GOPATH                     = "/home/indium114/go"
 $env.JUST_CHOOSER               = "tv"
 $env.PROMPT_INDICATOR_VI_INSERT = ""
 $env.PROMPT_INDICATOR_VI_NORMAL = ": "
+$env.GPG_TTY                    = (tty)
 
 
 recall list

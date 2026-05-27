@@ -1,4 +1,5 @@
 {
+  pkgs,
   ...
 }:
 
@@ -9,6 +10,8 @@
     "root"
     "indium114"
   ];
+
+  nix.package = pkgs.lixPackageSets.stable.lix;
 
   imports = [
     ./hardware-configuration.nix

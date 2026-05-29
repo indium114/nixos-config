@@ -100,6 +100,7 @@
     spawn-at-startup "swaync"
     spawn-at-startup "waybar"
     spawn-at-startup "hydroxide" "serve"
+    spawn-at-startup "keepassxc" "--minimized"
 
     // Screenshot path
     screenshot-path "~/Pictures/Screenshots/screenshot-%Y%m%d_%H%M%S.png"

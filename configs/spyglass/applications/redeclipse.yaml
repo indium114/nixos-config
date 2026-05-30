@@ -1,0 +1,4 @@
+name: "Red Eclipse"
+description: "Play Red Eclipse"
+icon: "󰽥"
+command: "mangohud redeclipse & sleep 5"

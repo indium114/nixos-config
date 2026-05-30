@@ -48,7 +48,6 @@
     cliphist
     gnome-disk-utility
     unzip
-    plocate
   ];
 
   programs.appimage.enable = true;

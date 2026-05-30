@@ -22,4 +22,6 @@
     packages = with pkgs; [ ];
   };
 
+  users.groups.plocate = {};
+
 }

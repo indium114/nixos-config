@@ -169,6 +169,15 @@
         block-out-from "screen-capture"
     }
 
+    /// Open KeePassXC password prompt floating
+    window-rule {
+        match title=r#"^Unlock Database - KeePassXC$"#
+        open-floating true
+
+        max-width 700
+        max-height 363
+    }
+
     window-rule {
         geometry-corner-radius 12
         clip-to-geometry true

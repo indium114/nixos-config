@@ -15,6 +15,7 @@
     gnome-chess
     mindustry
     cartridges
+    redeclipse
   ];
 
   programs.steam = {

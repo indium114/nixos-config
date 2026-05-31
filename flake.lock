@@ -5,11 +5,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1780143273,
-        "narHash": "sha256-MB5kijAjyfXHthLcDsWoMsUQiri/kfDF0KPuDEhXY/8=",
+        "lastModified": 1780220641,
+        "narHash": "sha256-skJ/dYOLw3QzSjtA6HkIskI3DopI8yV5QMdz1hgrun4=",
         "owner": "catppuccin",
         "repo": "nix",
-        "rev": "6cfdd6fbfa5c13cda26aad39c708c7d396f6d609",
+        "rev": "249534863227f98ff93c991aa6f1f3d23f3bad5e",
         "type": "github"
       },
       "original": {
@@ -26,11 +26,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1779615517,
-        "narHash": "sha256-YPwgbDzRwErADcB/w8h0T7Ve5aS7azNlNtn12/tM+AM=",
+        "lastModified": 1780217885,
+        "narHash": "sha256-kKZVzB4YdkuujEYBsi9E/ctT4A6bdgN742Dr7n3kch4=",
         "owner": "indium114",
         "repo": "fastcards",
-        "rev": "210145791f7055e879e194e3289d5afe96cd5324",
+        "rev": "51df74bb98f03cec245409a031af131b7d7ef6fc",
         "type": "github"
       },
       "original": {
@@ -306,11 +306,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1779615547,
-        "narHash": "sha256-Oe6KKTm3+wrABTI0vrvhnhnjdpHRPz4S7m2xhjwSe78=",
+        "lastModified": 1780217910,
+        "narHash": "sha256-LgxyVPhsUQ5AcTRxefXRnIvw3J5HAVgcDxS+gNH6+Ac=",
         "owner": "indium114",
         "repo": "jots",
-        "rev": "e461bef690ad593f9f9ef1c6d2b1be7806aafe3e",
+        "rev": "75bf13dd649b8a6a1d46f5b1762516e26fc48574",
         "type": "github"
       },
       "original": {
@@ -321,11 +321,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1779786838,
-        "narHash": "sha256-QvQh/2CMKcrUTHd4jBHAwyRoEC4IXzs0SjMvx5xWY64=",
-        "rev": "f44f7788c891fbe5542177df78374f8cdab10e8f",
+        "lastModified": 1779877693,
+        "narHash": "sha256-24YGUZ9p3uLeDBGS5Nc8V7Rt5PaRg1vZ+rnfSuBW7hM=",
+        "rev": "4100e830e085863741bc69b156ec4ccd53ab5be0",
         "type": "tarball",
-        "url": "https://releases.nixos.org/nixpkgs/nixpkgs-26.11pre1005282.f44f7788c891/nixexprs.tar.xz"
+        "url": "https://releases.nixos.org/nixpkgs/nixpkgs-26.11pre1006043.4100e830e085/nixexprs.tar.xz"
       },
       "original": {
         "type": "tarball",
@@ -520,11 +520,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1779615534,
-        "narHash": "sha256-BCz1Rumd8LzV7oTFzArunkTYhkvRScVEAlw94XomHFI=",
+        "lastModified": 1780217892,
+        "narHash": "sha256-95ddAjWrg+LpeEn+oQ+2b6b3z6Y95InHhAzXKuXZFNE=",
         "owner": "indium114",
         "repo": "spyglass",
-        "rev": "331929bb074886a8cc5f7b7e9177b9d9abde90d2",
+        "rev": "cee4dc5b89e5c7c2a96b12e781de0e20173dd97d",
         "type": "github"
       },
       "original": {

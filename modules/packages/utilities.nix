@@ -48,6 +48,7 @@
     cliphist
     gnome-disk-utility
     unzip
+    file
   ];
 
   programs.appimage.enable = true;

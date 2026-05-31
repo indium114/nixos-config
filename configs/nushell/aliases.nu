@@ -9,9 +9,11 @@
 # | (_| | | | (_| \__ \  __/\__ \_| | | | |_| |
 #  \__,_|_|_|\__,_|___/\___||___(_)_| |_|\__,_|
 
-alias l  = eza --icons=always --group-directories-first
-alias la = l -a
-alias ll = l -a1
+alias _eza  = eza --icons=always --group-directories-first
+
+alias l  = pricetag file ls --grid
+alias la = _eza -a
+alias ll = _eza -a1
 alias lt = eza --icons=always --group-directories-first --tree --level 1
 
 alias mv    = mv -v

@@ -372,11 +372,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1780224293,
-        "narHash": "sha256-vmnek/5+MNFMWynVtkOIefYba9PgvCb90Kn0o/Ai1ug=",
+        "lastModified": 1780230206,
+        "narHash": "sha256-SttH8g7wikCfnolGG972X2lccvwx7AXbDjG05h6QnmU=",
         "owner": "indium114",
         "repo": "pricetag",
-        "rev": "151582115c891597aa5c0402bcd8e6b99cbf7d13",
+        "rev": "17fb6ac1c07149c05d7d0bd273fc35409726da1d",
         "type": "github"
       },
       "original": {

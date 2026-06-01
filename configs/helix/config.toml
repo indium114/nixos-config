@@ -26,8 +26,8 @@ render = true
 left  = [ "mode", "file-name", "file-modification-indicator" ]
 right = [ "file-type", "position", "version-control", "spacer", "diagnostics", "spinner" ]
 mode.normal = " n"
-mode.insert = " i"
-mode.select = " s"
+mode.insert = "󰏪 i"
+mode.select = " s"
 
 [editor.lsp]
 enable                    = true

@@ -10,6 +10,7 @@
     aerc
     drawing
     obsidian
+    drawy
   ];
 
 }

@@ -57,7 +57,7 @@
               " "
             ];
           };
-          on-click = "pavucontrol";
+          on-click = "ghostty +new-window -e /home/indium114/Wares/pipemixer";
         };
         "mpris" = {
           rotate = 90;

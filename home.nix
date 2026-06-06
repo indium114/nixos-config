@@ -13,6 +13,7 @@
     ./configs/cursor.nix
     ./configs/defaults.nix
     ./configs/fastfetch.nix
+    ./configs/fetchit.nix
     ./configs/gh-dash.nix
     ./configs/ghostty.nix
     ./configs/gtk.nix

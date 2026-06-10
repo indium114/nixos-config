@@ -16,6 +16,8 @@
     mindustry
     cartridges
     redeclipse
+    steamcmd
+    steam-tui
   ];
 
   programs.steam = {

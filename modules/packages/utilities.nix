@@ -49,6 +49,7 @@
     gnome-disk-utility
     unzip
     file
+    cryptsetup
   ];
 
   programs.appimage.enable = true;

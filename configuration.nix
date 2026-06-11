@@ -35,7 +35,6 @@
     ./modules/packages/wm.nix
     ./modules/security.nix
     ./modules/services.nix
-    ./modules/specialisations.nix
     ./modules/users.nix
     ./modules/virtualisation.nix
   ];

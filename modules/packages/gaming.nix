@@ -16,6 +16,7 @@
     mindustry
     cartridges
     redeclipse
+    supertux
   ];
 
   programs.steam = {

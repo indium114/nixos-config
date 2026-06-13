@@ -12,6 +12,7 @@
         			layout "us"
         			variant "qwerty"
         		}
+        		repeat-rate 45
             numlock
         }
 

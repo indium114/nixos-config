@@ -11,7 +11,6 @@
     git
     git-lfs
     gh
-    soft-serve
     just
     forgejo-cli
     lazygit

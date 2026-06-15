@@ -16,6 +16,7 @@
     lazygit
     arduino-ide
     python313
+    jujutsu
   ];
 
   programs.direnv = {

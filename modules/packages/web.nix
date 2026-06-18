@@ -19,4 +19,9 @@
     hydroxide
   ];
 
+  nixpkgs.config.permittedInsecurePackages = [
+    "librewolf-${pkgs.librewolf.version}"
+    "librewolf-unwrapped-${pkgs.librewolf-unwrapped.version}"
+  ];
+
 }

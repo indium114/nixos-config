@@ -66,5 +66,6 @@
       };
     };
   };
+  services.upower.enable = true;
 
 }

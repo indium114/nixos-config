@@ -244,11 +244,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1774889897,
-        "narHash": "sha256-T2xttUBe1xjdo4qGTwp9IXoUA0OQDW/op8oYZM1yivw=",
+        "lastModified": 1782113032,
+        "narHash": "sha256-8TDHKfbBaQS0negvFDClFQaTjo676Dhn5QTNAAyxm2M=",
         "owner": "stan-breaks",
         "repo": "flow_state",
-        "rev": "c43df4c9efb3b3ebf564b83c5a66f7a07c831ca3",
+        "rev": "64d52e45b400c4fa66c7a84685070c2e2a91fd9e",
         "type": "github"
       },
       "original": {
@@ -285,11 +285,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1782051614,
-        "narHash": "sha256-xBRAhYLEXcjp8hM2tkkTTLb6PWU7VDxDoogl25g7Ezs=",
+        "lastModified": 1782103446,
+        "narHash": "sha256-+vMR3KPBVoY9nJrQI9qje5H1vmv51dJgMYkUuYimtJg=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "d1ccd0721ec599866622665f3651e19e6e2d4c6a",
+        "rev": "d8dac1f668fd861369571be3678ec75b1573e7e3",
         "type": "github"
       },
       "original": {

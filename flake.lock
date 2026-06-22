@@ -237,26 +237,6 @@
         "type": "github"
       }
     },
-    "flow_state": {
-      "inputs": {
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1782113032,
-        "narHash": "sha256-8TDHKfbBaQS0negvFDClFQaTjo676Dhn5QTNAAyxm2M=",
-        "owner": "stan-breaks",
-        "repo": "flow_state",
-        "rev": "64d52e45b400c4fa66c7a84685070c2e2a91fd9e",
-        "type": "github"
-      },
-      "original": {
-        "owner": "stan-breaks",
-        "repo": "flow_state",
-        "type": "github"
-      }
-    },
     "hocusfocus": {
       "inputs": {
         "flake-utils": "flake-utils_2",
@@ -411,7 +391,6 @@
       "inputs": {
         "catppuccin": "catppuccin",
         "fastcards": "fastcards",
-        "flow_state": "flow_state",
         "hocusfocus": "hocusfocus",
         "home-manager": "home-manager",
         "jots": "jots",

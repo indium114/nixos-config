@@ -50,6 +50,7 @@
     unzip
     file
     cryptsetup
+    attic-client
   ];
 
   programs.appimage = {

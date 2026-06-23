@@ -56,6 +56,10 @@
       url = "github:indium114/rubbish";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    kwybars = {
+      url = "github:naurissteins/kwybars";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
@@ -81,6 +85,7 @@
           }
           inputs.catppuccin.nixosModules.catppuccin
           inputs.home-manager.nixosModules.home-manager
+          inputs.kwybars.nixosModules.default
           ./configuration.nix
 
           {

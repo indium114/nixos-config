@@ -299,6 +299,26 @@
         "type": "github"
       }
     },
+    "kwybars": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1780294539,
+        "narHash": "sha256-2op54DbnLtp7L2yjLvzdaVG7eFlaW6JT5dCUXEgwWoU=",
+        "owner": "naurissteins",
+        "repo": "kwybars",
+        "rev": "b0dfd2c83b423fc9487575c61df5363bf100dfdd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "naurissteins",
+        "repo": "kwybars",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1781607440,
@@ -394,6 +414,7 @@
         "hocusfocus": "hocusfocus",
         "home-manager": "home-manager",
         "jots": "jots",
+        "kwybars": "kwybars",
         "nixpkgs": "nixpkgs_2",
         "pricetag": "pricetag",
         "recall": "recall",

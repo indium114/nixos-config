@@ -76,7 +76,7 @@
         layer = "background";
         position = "bottom";
         full_length = true;
-        height = 90;
+        height = 100;
         anchor_margin = 0;
         margin_left = 0;
         margin_right = 100;
@@ -88,7 +88,7 @@
         bars = 10;
         framerate = 60;
         wave_stroke_width = 6;
-        wave_fill = true;
+        wave_fill = false;
         wave_glow = false;
         wave_smoothing = 0.8;
         wave_motion_smoothing = 0.1;

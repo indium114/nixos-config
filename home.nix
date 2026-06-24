@@ -23,6 +23,7 @@
     ./configs/mangohud.nix
     ./configs/niri.nix
     ./configs/nushell.nix
+    ./configs/quickshell.nix
     ./configs/scripts.nix
     ./configs/spyglass.nix
     ./configs/starship.nix

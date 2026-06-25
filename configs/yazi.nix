@@ -1,4 +1,5 @@
 {
+  pkgs,
   ...
 }:
 
@@ -22,6 +23,12 @@
         image_filter = "nearest";
       };
     };
+    plugins = {
+      starship = pkgs.yaziPlugins.starship;
+    };
+    initLua = ''
+      require("starship"):setup()
+    '';
   };
 
 }

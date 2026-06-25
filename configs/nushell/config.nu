@@ -41,9 +41,11 @@ $env.PROMPT_INDICATOR_VI_NORMAL = ": "
 $env.GPG_TTY                    = (tty)
 
 
-recall list
-fastcards amount
-hocusfocus currentsession
+if not ( "/home/indium114/.recording_mode" | path exists ) {
+	recall list
+	fastcards amount
+	hocusfocus currentsession
+}
 open ~/.scripts/motds.txt | lines | shuffle | first | print $"󰆈 ($in)"
 
 $env.FZF_DEFAULT_OPTS = "

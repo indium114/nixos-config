@@ -12,8 +12,8 @@
 alias _eza  = eza --icons=always --group-directories-first
 
 alias l  = pricetag file ls --grid
-alias la = _eza -a
-alias ll = _eza -a1
+alias la = pricetag file ls --grid -a
+alias ll = pricetag file ls -a
 alias lt = eza --icons=always --group-directories-first --tree --level 1
 
 alias mv    = mv -v

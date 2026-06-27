@@ -17,6 +17,7 @@
       "libvirtd"
       "docker"
       "dialout"
+      "wireshark"
     ];
     shell = pkgs.nushell;
     packages = with pkgs; [ ];

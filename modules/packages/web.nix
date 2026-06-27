@@ -17,6 +17,7 @@
     dino
     newsflash
     hydroxide
+    wireshark
   ];
 
   # nixpkgs.config.permittedInsecurePackages = [

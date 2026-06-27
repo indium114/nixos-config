@@ -27,6 +27,7 @@
   programs.wireshark = {
     enable = true;
     dumpcap.enable = true;
+    package = pkgs.wireshark;
   };
 
 }

@@ -1,4 +1,5 @@
 {
+  pkgs,
   ...
 }:
 
@@ -308,7 +309,7 @@
         Mod+Shift+P { power-off-monitors; }
 
         // Spawn applications
-        Mod+Grave { spawn "ghostty" "--title=Spyglass" "-e" "spyglass" "+new-window"; }
+        Mod+Grave { spawn "${pkgs.alacritty}/bin/alacritty" "--config-file" "${./alacritty.toml}" "--title" "Spyglass" "-e" "spyglass"; }
     	  Mod+Return { spawn "ghostty"; }
     	  Mod+Shift+Grave { spawn "wlogout" "-b" "4"; }
     	  Mod+Semicolon { spawn "librewolf"; }

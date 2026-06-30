@@ -1,4 +1,4 @@
 name: "SuperTuxKart"
 description: "Play SuperTuxKart"
-icon: "󰵹"
+icon: "󰞫"
 command: "supertuxkart & sleep 5"

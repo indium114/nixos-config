@@ -17,6 +17,7 @@
     cartridges
     redeclipse
     supertux
+    supertuxkart
   ];
 
   programs.steam = {

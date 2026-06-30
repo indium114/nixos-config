@@ -12,6 +12,7 @@
     playerctl
     vlc
     pavucontrol
+    crosspipe
   ];
 
   programs.obs-studio.enable = true;

@@ -60,6 +60,10 @@
       url = "github:naurissteins/kwybars";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    ssuika = {
+      url = "git+https://codeberg.org/indium114/ssuika";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =

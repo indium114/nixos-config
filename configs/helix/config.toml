@@ -76,6 +76,10 @@ right = "no_op"
 
 "'" = "collapse_selection"
 
+"W" = "extend_next_word_start"
+"E" = "extend_next_word_end"
+"B" = "extend_prev_word_start"
+
 [keys.select]
 up    = "no_op"
 down  = "no_op"

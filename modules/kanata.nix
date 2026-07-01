@@ -13,15 +13,13 @@
 
         config = ''
           (defsrc
+            esc
             caps
           )
 
-          (defalias
-            modtap (tap-hold 100 100 esc lctrl)
-          )
-
           (deflayer base
-            @modtap
+            XX
+            esc
           )
         '';
       };

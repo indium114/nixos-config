@@ -50,6 +50,7 @@
     file
     cryptsetup
     attic-client
+    caligula
   ];
 
   programs.appimage = {

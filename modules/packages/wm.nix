@@ -17,7 +17,6 @@
     starship
     rmpc
     btop
-    wlogout
     papirus-icon-theme
     (catppuccin-gtk.override {
       variant = "mocha";

@@ -14,7 +14,6 @@
     figlet
     zoxide
     delta
-    gum
     chafa
     yt-dlp
     glow

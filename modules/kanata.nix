@@ -13,12 +13,10 @@
 
         config = ''
           (defsrc
-            esc
             caps
           )
 
           (deflayer base
-            XX
             esc
           )
         '';

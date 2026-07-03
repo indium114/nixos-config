@@ -22,6 +22,7 @@
     inputs.sheets.packages.${pkgs.stdenv.hostPlatform.system}.default
     inputs.rubbish.packages.${pkgs.stdenv.hostPlatform.system}.rubbish
     inputs.ssuika.packages.${pkgs.stdenv.hostPlatform.system}.default
+    inputs.bunkers.packages.${pkgs.stdenv.hostPlatform.system}.bunkers
     pkgs.ytsurf
   ];
 }

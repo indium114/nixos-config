@@ -64,6 +64,10 @@
       url = "git+https://codeberg.org/indium114/ssuika";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    bunkers = {
+      url = "github:indium114/bunkers";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =

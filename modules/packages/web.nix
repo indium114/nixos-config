@@ -6,7 +6,7 @@
 {
 
   environment.systemPackages = with pkgs; [
-    # librewolf
+    librewolf
     proton-vpn
     wireguard-tools
     transmission_4-gtk
@@ -18,11 +18,6 @@
     newsflash
     hydroxide
   ];
-
-  # nixpkgs.config.permittedInsecurePackages = [
-  #   "librewolf-${pkgs.librewolf.version}"
-  #   "librewolf-unwrapped-${pkgs.librewolf-unwrapped.version}"
-  # ];
 
   programs.wireshark = {
     enable = true;

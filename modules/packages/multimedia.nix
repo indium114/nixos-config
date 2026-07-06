@@ -13,6 +13,7 @@
     vlc
     pavucontrol
     crosspipe
+    wiremix
   ];
 
   programs.obs-studio.enable = true;

@@ -68,6 +68,10 @@
       url = "github:indium114/bunkers";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    fetchit = {
+      url = "git+https://codeberg.org/indium114/fetchit";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =

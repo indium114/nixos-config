@@ -15,7 +15,7 @@
     gnome-chess
     mindustry
     cartridges
-    redeclipse
+    # redeclipse
     supertux
     supertuxkart
   ];

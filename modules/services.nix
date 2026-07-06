@@ -66,38 +66,6 @@
     };
   };
   services.upower.enable = true;
-  programs.kwybars = {
-    enable = true;
-    systemd.enable = true;
-    settings = {
-      overlay = {
-        monitor_mode = "primary";
-        layer = "background";
-        position = "bottom";
-        full_length = true;
-        height = 100;
-        anchor_margin = 0;
-        margin_left = 0;
-        margin_right = 100;
-        margin_bottom = 0;
-      };
-
-      visualizer = {
-        layout = "wave";
-        bars = 10;
-        framerate = 60;
-        wave_stroke_width = 6;
-        wave_fill = false;
-        wave_glow = false;
-        wave_smoothing = 0.8;
-        wave_motion_smoothing = 0.1;
-        wave_amplitude = 1.3;
-        color_mode = "gradient";
-        color_rgba = "rgba(180, 190, 254, 0.7)";
-        color2_rgba = "rgba(137, 180, 250, 0.7)";
-      };
-    };
-  };
   services.davfs2.enable = true;
 
 }

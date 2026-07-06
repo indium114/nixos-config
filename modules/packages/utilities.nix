@@ -51,6 +51,7 @@
     cryptsetup
     attic-client
     caligula
+    pika-backup
   ];
 
   programs.appimage = {

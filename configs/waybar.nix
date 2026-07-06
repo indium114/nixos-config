@@ -1,4 +1,5 @@
 {
+  pkgs,
   ...
 }:
 
@@ -57,7 +58,7 @@
               " "
             ];
           };
-          on-click = "ghostty +new-window -e /home/indium114/Wares/pipemixer";
+          on-click = "ghostty +new-window -e ${pkgs.wiremix}/bin/wiremix";
         };
         "mpris" = {
           rotate = 90;

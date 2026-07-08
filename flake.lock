@@ -8,11 +8,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1783087447,
-        "narHash": "sha256-6Paq/+uFAPM1BYZdQY7Ve0RUlR9P/wnrn/EKUHP3aIs=",
+        "lastModified": 1783507288,
+        "narHash": "sha256-FPpkVcvPrU/w2v5Cb55YN+nGhlbdnjrND0aa64kWW/w=",
         "owner": "indium114",
         "repo": "bunkers",
-        "rev": "2dfd1bfed521e1116fefc8b87fe5519799825a18",
+        "rev": "54f09ba6370d83cb730e8093de341f305a60c4c4",
         "type": "github"
       },
       "original": {
@@ -26,11 +26,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1783068397,
-        "narHash": "sha256-B31MxW5os40h6NlnCUd+8fxresmVJlMnpYv2Kht0uWI=",
+        "lastModified": 1783525197,
+        "narHash": "sha256-BJYTl6uZ0PRzOjjxaPHnfEifkTwf63uXwWfjrplRoL0=",
         "owner": "catppuccin",
         "repo": "nix",
-        "rev": "e3adb9b4815a3f934626626e6d6d1d8518717903",
+        "rev": "cdc85139e679f9764ec40abc0a157538e0ec93b1",
         "type": "github"
       },
       "original": {
@@ -379,11 +379,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1783222121,
-        "narHash": "sha256-E/ElL373TO8lQ2aMvYyzN+k4xkVaUGoRqoa8AtM71tI=",
+        "lastModified": 1783525612,
+        "narHash": "sha256-OEFYdbtG6Qy04KGteknnrx15Uo2XXkYVuUvBvFNEn+Q=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "a1645f40777620c4bd2b6d854b290c2fc354a266",
+        "rev": "1aac8895fea6fcabc6a0184c63a80fb2f99fd208",
         "type": "github"
       },
       "original": {
@@ -884,11 +884,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1783532314,
-        "narHash": "sha256-0pjYb0GNZxB9f5rZacerlTRWMm+axOZoTTuUs5J0Glg=",
+        "lastModified": 1783537297,
+        "narHash": "sha256-LC7P58/GGbGcVJdN82f5zKMdRg+Fo92gVoVUimTLWq4=",
         "owner": "indium114",
         "repo": "termfarm",
-        "rev": "785f719ac485829bdebbe6def67c0b9e6d636d46",
+        "rev": "dc09b5e2fde1a4dc7adcc57bb8edc137fa33c767",
         "type": "github"
       },
       "original": {
@@ -943,11 +943,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1779284334,
-        "narHash": "sha256-22UcBgBfOS8XfC0yWg9NO8AUKXzAuXLhP/vrt68N1tc=",
+        "lastModified": 1783413827,
+        "narHash": "sha256-lqbjsMkEmtoSTIVga0y0YNmlVRlcapDJVEVPrbDGegE=",
         "owner": "stan-breaks",
         "repo": "ytsurf",
-        "rev": "fe79fa1a87148982f1dca8e97720ff01606b4d14",
+        "rev": "42ce875ff42bb5581c671242401966d7b9ec77ec",
         "type": "github"
       },
       "original": {

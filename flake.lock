@@ -189,6 +189,24 @@
         "type": "github"
       }
     },
+    "flake-utils_15": {
+      "inputs": {
+        "systems": "systems_15"
+      },
+      "locked": {
+        "lastModified": 1731533236,
+        "narHash": "sha256-l0KFg5HjrsfsO/JpG+r7fRrqm12kzFHyUHqHCVpMMbI=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "11707dc2f618dd54ca8739b309ec4fc024de578b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
     "flake-utils_2": {
       "inputs": {
         "systems": "systems_2"
@@ -501,6 +519,7 @@
         "sorta": "sorta",
         "spyglass": "spyglass",
         "ssuika": "ssuika",
+        "termfarm": "termfarm",
         "theatre": "theatre",
         "uwu-colors": "uwu-colors",
         "ytsurf": "ytsurf"
@@ -722,6 +741,21 @@
         "type": "github"
       }
     },
+    "systems_15": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    },
     "systems_2": {
       "locked": {
         "lastModified": 1681028828,
@@ -842,9 +876,30 @@
         "type": "github"
       }
     },
-    "theatre": {
+    "termfarm": {
       "inputs": {
         "flake-utils": "flake-utils_14",
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1783532314,
+        "narHash": "sha256-0pjYb0GNZxB9f5rZacerlTRWMm+axOZoTTuUs5J0Glg=",
+        "owner": "indium114",
+        "repo": "termfarm",
+        "rev": "785f719ac485829bdebbe6def67c0b9e6d636d46",
+        "type": "github"
+      },
+      "original": {
+        "owner": "indium114",
+        "repo": "termfarm",
+        "type": "github"
+      }
+    },
+    "theatre": {
+      "inputs": {
+        "flake-utils": "flake-utils_15",
         "nixpkgs": [
           "nixpkgs"
         ]

@@ -68,6 +68,10 @@
       url = "git+https://codeberg.org/indium114/fetchit";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    termfarm = {
+      url = "github:indium114/termfarm";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =

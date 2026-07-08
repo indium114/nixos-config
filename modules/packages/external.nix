@@ -24,6 +24,7 @@
     inputs.ssuika.packages.${pkgs.stdenv.hostPlatform.system}.default
     inputs.bunkers.packages.${pkgs.stdenv.hostPlatform.system}.bunkers
     inputs.fetchit.packages.${pkgs.stdenv.hostPlatform.system}.default
+    inputs.termfarm.packages.${pkgs.stdenv.hostPlatform.system}.termfarm
     pkgs.ytsurf
   ];
 }

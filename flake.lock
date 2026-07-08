@@ -487,16 +487,15 @@
         ]
       },
       "locked": {
-        "lastModified": 1777389011,
-        "narHash": "sha256-jeDYd5ibZ+VbFkC3nuiexPUZw16T7LT1KilHZGefmeY=",
+        "lastModified": 1783538592,
+        "narHash": "sha256-+bMgmi0UaA42rXmJ1fH7Vxmlez857a9oomu068H99AI=",
         "owner": "indium114",
         "repo": "recall",
-        "rev": "6f85a35d8ec3f2b528fcee4491281bb3a43a638c",
+        "rev": "9ab607a0240fe80cf37b760af67ef9839ff230cc",
         "type": "github"
       },
       "original": {
         "owner": "indium114",
-        "ref": "next",
         "repo": "recall",
         "type": "github"
       }

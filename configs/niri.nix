@@ -103,6 +103,7 @@
     spawn-at-startup "waybar"
     spawn-at-startup "hydroxide" "serve"
     spawn-at-startup "keepassxc" "--minimized"
+    spawn-at-startup "${pkgs.usbguard-notifier}/bin/usbguard-notifier"
 
     // Screenshot path
     screenshot-path "~/Pictures/Screenshots/screenshot-%Y%m%d_%H%M%S.png"

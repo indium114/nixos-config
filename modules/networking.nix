@@ -11,6 +11,7 @@
     allowedTCPPorts = [
       22
       80
+      53317
     ];
   };
 

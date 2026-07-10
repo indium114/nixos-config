@@ -12,10 +12,8 @@
     osu-lazer-bin
     classicube
     wineWow64Packages.stable
-    gnome-chess
     mindustry
     cartridges
-    # redeclipse
     supertux
     supertuxkart
   ];
@@ -34,6 +32,5 @@
   };
 
   programs.gamemode.enable = true;
-  services.joycond.enable = true;
 
 }

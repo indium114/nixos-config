@@ -12,10 +12,8 @@
     fastfetch
     hyprpolkitagent
     cava
-    cmatrix
     hyprlock
     starship
-    rmpc
     btop
     papirus-icon-theme
     (catppuccin-gtk.override {

@@ -42,14 +42,12 @@
     nvd
     carapace
     pass
-    proton-authenticator
     home-manager
     cliphist
     gnome-disk-utility
     unzip
     file
     cryptsetup
-    attic-client
     caligula
     pika-backup
   ];

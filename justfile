@@ -12,3 +12,6 @@ update:
     git add flake.lock
     git commit -m "global(flake.lock): update flake lock"
     git push
+
+slow:
+    nh os switch -j 1

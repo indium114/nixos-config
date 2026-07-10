@@ -1,4 +1,0 @@
-name: "Proton Authenticator"
-description: "Two-Factor Authentication codes"
-icon: ""
-command: "proton-authenticator & sleep 5"

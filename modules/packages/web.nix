@@ -15,7 +15,6 @@
     tuba
     pipeline
     dino
-    newsflash
     hydroxide
   ];
 

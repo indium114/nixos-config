@@ -4,6 +4,9 @@
 
 {
 
-  home.pointerCursor.enable = true;
+  home.pointerCursor = {
+    enable = true;
+    # name = "catppuccin-mocha-dark";
+  };
 
 }

@@ -8,9 +8,6 @@
   programs.git = {
     enable = true;
     lfs.enable = true;
-
-    userName = "indium114";
-    userEmail = "156162907+indium114@users.noreply.github.com";
     signing.key = "FEC7A1E40F1A528B865CA0B862495C1658832CF0";
 
     includes = [
@@ -18,6 +15,8 @@
     ];
 
     settings = {
+      user.name = "indium114";
+      user.email = "156162907+indium114@users.noreply.github.com";
       init.defaultBranch = "main";
       core.pager = "${pkgs.delta}/bin/delta";
       interactive.diffFilter = "${pkgs.delta}/bin/delta --color-only";

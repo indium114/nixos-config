@@ -8,5 +8,3 @@
 - [-] Try `quickshell`
 
 ## NixOS
-
-- [ ] Fix joycond

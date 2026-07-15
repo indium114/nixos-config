@@ -14,6 +14,7 @@
     ./configs/defaults.nix
     ./configs/fastfetch.nix
     ./configs/fetchit.nix
+    ./configs/fonts.nix
     ./configs/gh-dash.nix
     ./configs/ghostty.nix
     ./configs/git.nix

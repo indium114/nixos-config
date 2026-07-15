@@ -10,16 +10,19 @@
     pkgs.lato
   ];
 
-  fonts.fontconfig.defaultFonts = {
-    sansSerif = [
-      "Lato Black"
-    ];
-    serif = [
-      "Lato Black"
-    ];
-    monospace = [
-      "Martian Mono Condensed Semibold"
-    ];
+  fonts.fontconfig = {
+    enable = true;
+    defaultFonts = {
+      sansSerif = [
+        "Lato Black"
+      ];
+      serif = [
+        "Lato Black"
+      ];
+      monospace = [
+        "Martian Mono Condensed Semibold"
+      ];
+    };
   };
 
 }

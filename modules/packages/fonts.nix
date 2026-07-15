@@ -14,6 +14,9 @@
     sansSerif = [
       "Lato Black"
     ];
+    serif = [
+      "Lato Black"
+    ];
     monospace = [
       "Martian Mono Condensed Semibold"
     ];

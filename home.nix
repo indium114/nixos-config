@@ -13,12 +13,12 @@
     ./configs/cursor.nix
     ./configs/defaults.nix
     ./configs/fastfetch.nix
-    ./configs/fetchit.nix
     ./configs/fonts.nix
     ./configs/gh-dash.nix
     ./configs/ghostty.nix
     ./configs/git.nix
     ./configs/gtk.nix
+    ./configs/haal.nix
     ./configs/helix.nix
     ./configs/hyprlock.nix
     ./configs/lazygit.nix

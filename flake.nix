@@ -64,8 +64,8 @@
       url = "github:indium114/bunkers";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    fetchit = {
-      url = "git+https://codeberg.org/indium114/fetchit";
+    haal = {
+      url = "github:indium114/haal";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     termfarm = {

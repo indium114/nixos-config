@@ -60,27 +60,6 @@
         "type": "github"
       }
     },
-    "fetchit": {
-      "inputs": {
-        "flake-utils": "flake-utils_3",
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1780771776,
-        "narHash": "sha256-ihbN4d4RvYtgItPKnYz1pVBU8cnvooxdhdpLyLtGAb8=",
-        "ref": "refs/heads/master",
-        "rev": "751db7d9d91796bc2a7652304214d4d11d65312c",
-        "revCount": 32,
-        "type": "git",
-        "url": "https://codeberg.org/indium114/fetchit"
-      },
-      "original": {
-        "type": "git",
-        "url": "https://codeberg.org/indium114/fetchit"
-      }
-    },
     "flake-utils": {
       "inputs": {
         "systems": "systems"
@@ -351,6 +330,27 @@
         "type": "github"
       }
     },
+    "haal": {
+      "inputs": {
+        "flake-utils": "flake-utils_3",
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1784234089,
+        "narHash": "sha256-J0pv/68XF/9hZ/jr6gcak+LwgSGfpZ4c1TlGFOr3XXg=",
+        "owner": "indium114",
+        "repo": "haal",
+        "rev": "32d2e43792b6ed7c334644ada37e6c959b8518bf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "indium114",
+        "repo": "haal",
+        "type": "github"
+      }
+    },
     "hocusfocus": {
       "inputs": {
         "flake-utils": "flake-utils_4",
@@ -505,7 +505,7 @@
         "bunkers": "bunkers",
         "catppuccin": "catppuccin",
         "fastcards": "fastcards",
-        "fetchit": "fetchit",
+        "haal": "haal",
         "hocusfocus": "hocusfocus",
         "home-manager": "home-manager",
         "jots": "jots",

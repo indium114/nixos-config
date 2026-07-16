@@ -23,7 +23,7 @@
     inputs.rubbish.packages.${pkgs.stdenv.hostPlatform.system}.rubbish
     inputs.ssuika.packages.${pkgs.stdenv.hostPlatform.system}.default
     inputs.bunkers.packages.${pkgs.stdenv.hostPlatform.system}.bunkers
-    inputs.fetchit.packages.${pkgs.stdenv.hostPlatform.system}.default
+    inputs.haal.packages.${pkgs.stdenv.hostPlatform.system}.haal
     inputs.termfarm.packages.${pkgs.stdenv.hostPlatform.system}.termfarm
     pkgs.ytsurf
   ];

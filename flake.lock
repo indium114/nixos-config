@@ -828,11 +828,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1783864100,
-        "narHash": "sha256-e+4th99mOvB2M+qqsMx7TwXrVns9QDoWb6QURrzOLzQ=",
+        "lastModified": 1784306718,
+        "narHash": "sha256-FerFliKDabLkJHiFarWaX8YqQsq+0IcMcZbtQGkDbcU=",
         "owner": "indium114",
         "repo": "termfarm",
-        "rev": "062305d92b321cf34a40cc5c256b69d82d6f0e30",
+        "rev": "35de454cd59496c889cdbe870de7b34cf16c6c05",
         "type": "github"
       },
       "original": {

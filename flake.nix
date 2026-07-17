@@ -48,10 +48,6 @@
       url = "github:indium114/sorta";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    sheets = {
-      url = "github:maaslalani/sheets";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
     rubbish = {
       url = "github:indium114/rubbish";
       inputs.nixpkgs.follows = "nixpkgs";

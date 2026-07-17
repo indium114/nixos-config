@@ -11,7 +11,6 @@
     kdePackages.kdenlive
     playerctl
     vlc
-    pavucontrol
     crosspipe
     wiremix
   ];

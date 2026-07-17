@@ -1,4 +1,0 @@
-name: "Pavucontrol"
-description: "Manage Audio devices"
-icon: "󰕾"
-command: "pavucontrol & sleep 5"

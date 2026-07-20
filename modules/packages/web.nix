@@ -16,6 +16,7 @@
     pipeline
     dino
     hydroxide
+    bulletty
   ];
 
   programs.wireshark = {

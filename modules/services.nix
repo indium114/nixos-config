@@ -51,7 +51,6 @@
       "/home/indium114/.steam"
     ];
   };
-  services.yarr.enable = true;
   services.auto-cpufreq = {
     enable = true;
     settings = {

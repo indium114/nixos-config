@@ -1,5 +1,23 @@
 {
   "nodes": {
+    "beaker-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1780436704,
+        "narHash": "sha256-3aMH1YblnpiXKdkQVMRLmMZ5/8G7vB4HAfLg7+izyHg=",
+        "ref": "refs/heads/master",
+        "rev": "360d6271e1a20d128430e52637d5d35f4c706ca5",
+        "revCount": 34,
+        "shallow": false,
+        "type": "git",
+        "url": "https://git.bwaaa.monster/beaker"
+      },
+      "original": {
+        "shallow": false,
+        "type": "git",
+        "url": "https://git.bwaaa.monster/beaker"
+      }
+    },
     "bunkers": {
       "inputs": {
         "flake-utils": "flake-utils",
@@ -440,6 +458,46 @@
         "type": "github"
       }
     },
+    "omnisearch": {
+      "inputs": {
+        "beaker-src": "beaker-src",
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "omnisearch-src": "omnisearch-src"
+      },
+      "locked": {
+        "lastModified": 1784536994,
+        "narHash": "sha256-PwzxlJTX2pEMax+VFlN/aEfsMlYbiGrayqxg69b+uEc=",
+        "owner": "indium114",
+        "repo": "omnisearch-flake",
+        "rev": "f35e9c29d31f1c6bbcecef816f3f89f528a4d18c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "indium114",
+        "repo": "omnisearch-flake",
+        "type": "github"
+      }
+    },
+    "omnisearch-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1783357409,
+        "narHash": "sha256-eolp0Msb3ACNatbenEJftjFlUoh/RfZDizv3GdetEsM=",
+        "ref": "refs/heads/master",
+        "rev": "9c68a8ae6fb32f8a1660da392b9985a4ab3e7cb4",
+        "revCount": 135,
+        "shallow": false,
+        "type": "git",
+        "url": "https://git.bwaaa.monster/omnisearch"
+      },
+      "original": {
+        "shallow": false,
+        "type": "git",
+        "url": "https://git.bwaaa.monster/omnisearch"
+      }
+    },
     "pricetag": {
       "inputs": {
         "flake-utils": "flake-utils_6",
@@ -492,6 +550,7 @@
         "home-manager": "home-manager",
         "jots": "jots",
         "nixpkgs": "nixpkgs_2",
+        "omnisearch": "omnisearch",
         "pricetag": "pricetag",
         "recall": "recall",
         "rubbish": "rubbish",

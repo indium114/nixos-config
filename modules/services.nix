@@ -81,5 +81,14 @@
       allow id 8087:0a2a serial "" name "" hash "IzBWkmck4sVZ1xeWvrzvafZ33tdLAD+XuHwwloNmm3s=" parent-hash "jEP/6WzviqdJ5VSeTUY8PatCNBKeaREvo2OqdplND/o=" via-port "1-7" with-interface { e0:01:01 e0:01:01 e0:01:01 e0:01:01 e0:01:01 e0:01:01 e0:01:01 } with-connect-type "hardwired"
     '';
   };
+  services.omnisearch = {
+    enable = true;
+    settings = {
+      server = {
+        host = "0.0.0.0";
+        port = 5000;
+      };
+    };
+  };
 
 }

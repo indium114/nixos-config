@@ -68,6 +68,10 @@
       url = "github:indium114/termfarm";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    omnisearch = {
+      url = "github:indium114/omnisearch-flake";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
@@ -93,6 +97,7 @@
           }
           inputs.catppuccin.nixosModules.catppuccin
           inputs.home-manager.nixosModules.home-manager
+          inputs.omnisearch.nixosModules.default
           ./configuration.nix
 
           {

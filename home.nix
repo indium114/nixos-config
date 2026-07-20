@@ -8,6 +8,7 @@
     ./configs/aerc.nix
     ./configs/bat.nix
     ./configs/btop.nix
+    ./configs/bulletty.nix
     ./configs/catppuccin.nix
     ./configs/cava.nix
     ./configs/cursor.nix

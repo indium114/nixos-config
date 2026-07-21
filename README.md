@@ -9,3 +9,9 @@ My personal **NixOS** config!
 ```text
 nixos|home-manager|global|other(files): change
 ```
+
+Commit messages should match against this Regex:
+
+```regex
+^(nixos|home-manager|global|other)(\/refactor)?\((.+)\):\s(.+)$
+```

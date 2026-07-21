@@ -560,8 +560,7 @@
         "ssuika": "ssuika",
         "termfarm": "termfarm",
         "theatre": "theatre",
-        "uwu-colors": "uwu-colors",
-        "ytsurf": "ytsurf"
+        "uwu-colors": "uwu-colors"
       }
     },
     "rubbish": {
@@ -936,26 +935,6 @@
       "original": {
         "owner": "q60",
         "repo": "uwu_colors",
-        "type": "github"
-      }
-    },
-    "ytsurf": {
-      "inputs": {
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1784634396,
-        "narHash": "sha256-ig5KCDbcOoXckT6w2JRUAqWPHXKy8MJ7axloXHTHZOk=",
-        "owner": "stan-breaks",
-        "repo": "ytsurf",
-        "rev": "2261f79ae5e9f112d09eec8b43d6f8758f71322e",
-        "type": "github"
-      },
-      "original": {
-        "owner": "stan-breaks",
-        "repo": "ytsurf",
         "type": "github"
       }
     }

@@ -6,8 +6,6 @@
 
 {
 
-  nixpkgs.overlays = [ inputs.ytsurf.overlays.default ];
-
   environment.systemPackages = [
     inputs.recall.packages.${pkgs.stdenv.hostPlatform.system}.recall
     inputs.hocusfocus.packages.${pkgs.stdenv.hostPlatform.system}.hocusfocus
@@ -24,6 +22,5 @@
     inputs.bunkers.packages.${pkgs.stdenv.hostPlatform.system}.bunkers
     inputs.haal.packages.${pkgs.stdenv.hostPlatform.system}.haal
     inputs.termfarm.packages.${pkgs.stdenv.hostPlatform.system}.termfarm
-    pkgs.ytsurf
   ];
 }

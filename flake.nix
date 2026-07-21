@@ -20,10 +20,6 @@
       url = "github:indium114/fastcards";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    ytsurf = {
-      url = "github:stan-breaks/ytsurf";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
     theatre = {
       url = "github:indium114/theatre";
       inputs.nixpkgs.follows = "nixpkgs";

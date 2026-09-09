@@ -19,7 +19,7 @@
       accents = [ "mauve" ];
     })
     catppuccin-cursors.mochaMauve
-    pipes
+    pipes-rs
     sunsetr
   ];
 

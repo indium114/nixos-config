@@ -9,7 +9,6 @@
     waybar
     ghostty
     awww
-    fastfetch
     cava
     hyprlock
     starship

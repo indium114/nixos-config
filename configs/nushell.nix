@@ -93,7 +93,7 @@
       cp = "cp -vp";
       mkdir = "mkdir -v";
       mv = "mv -vp";
-      rm = "rubbish -v";
+      rm = "rubbish";
       cat = "bat";
       # git aliases
       ga = "git add";

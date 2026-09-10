@@ -16,7 +16,6 @@
     ./default_apps.nix
     ./direnv.nix
     ./drawy.nix
-    ./fastfetch.nix
     ./fonts.nix
     ./gh.nix
     ./ghostty.nix

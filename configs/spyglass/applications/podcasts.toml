@@ -1,0 +1,4 @@
+name = "Podcasts"
+description = "Listen to podcasts"
+icon = "󰦔"
+command = "gnome-podcasts & sleep 5"

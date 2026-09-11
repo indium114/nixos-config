@@ -14,6 +14,7 @@
     crosspipe
     wiremix
     blanket
+    gnome-podcasts
   ];
 
   programs.obs-studio.enable = true;

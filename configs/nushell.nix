@@ -8,7 +8,7 @@
   programs.nushell = {
     enable = true;
     settings = {
-      edit_mode = "vi";
+      edit_mode = "helix";
       history.file_format = "sqlite";
       show_banner = false;
     };
@@ -25,45 +25,45 @@
       # keybindings
       $env.config.keybindings ++= [
           {
-              name: vi-insert_mode
+              name: helix-insert_mode
               modifier: none
               keycode: char_u003B
-              mode: vi_normal
-              event: { send: ViChangeMode mode: "insert" }
+              mode: helix_normal
+              event: { send: HelixChangeMode mode: "insert" }
           },
           {
-              name: vi-disable_h
+              name: helix-disable_h
               modifier: none
               keycode: char_h
-              mode: vi_normal
+              mode: helix_normal
               event: { send: None }
           },
           {
-              name: vi-move_up
+              name: helix-move_up
               modifier: none
               keycode: char_i
-              mode: vi_normal
+              mode: helix_normal
               event: { edit: MoveLineUp }
           },
           {
-              name: vi-move_left
+              name: helix-move_left
               modifier: none
               keycode: char_j
-              mode: vi_normal
+              mode: helix_normal
               event: { edit: MoveLeft }
           },
           {
-              name: vi-move_down
+              name: helix-move_down
               modifier: none
               keycode: char_k
-              mode: vi_normal
+              mode: helix_normal
               event: { edit: MoveLineDown }
           },
           {
-              name: vi-move_right
+              name: helix-move_right
               modifier: none
               keycode: char_l
-              mode: vi_normal
+              mode: helix_normal
               event: { edit: MoveRight }
           },
       ]

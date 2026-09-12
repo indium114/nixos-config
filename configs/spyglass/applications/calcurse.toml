@@ -1,0 +1,4 @@
+name = "calcurse"
+description = "View and manage events"
+icon = ""
+command = "ghostty +new-window --title='calcurse' -e calcurse & sleep 5"

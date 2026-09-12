@@ -11,6 +11,7 @@
     aerc
     drawy
     presenterm
+    calcurse
   ];
 
 }

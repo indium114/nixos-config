@@ -69,6 +69,10 @@
       url = "github:indium114/rsstig";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    zdir = {
+      url = "github:indium114/zdir";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =

@@ -13,7 +13,6 @@
     swaynotificationcenter
     man
     figlet
-    zoxide
     delta
     chafa
     yt-dlp

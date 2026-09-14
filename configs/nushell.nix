@@ -89,7 +89,7 @@
       lt = "eza --icons=always --group-directories-first --tree --level 1";
       tree = "eza --icon=always --group-directories-first --tree --level 1";
       # file operation aliases
-      cd = "z";
+      cd = "zd";
       cp = "cp -vp";
       mkdir = "mkdir -v";
       mv = "mv -vp";

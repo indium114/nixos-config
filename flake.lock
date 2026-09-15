@@ -1610,11 +1610,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1789488154,
-        "narHash": "sha256-5j77WLk9gTxXNXjrGmclZys5gzP74yGzgtVXVFLkoEM=",
+        "lastModified": 1789492295,
+        "narHash": "sha256-2PpiHMoXRlZcmbefKHLhuTISM2Y9ABc96OFokvX1O60=",
         "owner": "indium114",
         "repo": "zdir",
-        "rev": "6428079126c7faf8d19304af290a343e86d6aa72",
+        "rev": "765a0308a2d96ad6cbcb1e5e8959f42b594a0a87",
         "type": "github"
       },
       "original": {

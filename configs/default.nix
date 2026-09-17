@@ -26,6 +26,7 @@
     ./hyprlock.nix
     ./hyprpolkitagent.nix
     ./keepassxc.nix
+    ./keychain.nix
     ./lazygit.nix
     ./mangohud.nix
     ./niri.nix

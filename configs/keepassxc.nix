@@ -19,9 +19,6 @@
         ShowTrayIcon = true;
         TrayIconAppearance = "monochrome-light";
       };
-      SSHAgent = {
-        Enabled = true;
-      };
       Security = {
         IconDownloadFallback = true;
       };

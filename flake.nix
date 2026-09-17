@@ -2,7 +2,10 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-    catppuccin.url = "github:catppuccin/nix";
+    catppuccin = {
+      url = "github:catppuccin/nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
     uwu-colors.url = "github:q60/uwu_colors";
     flake-parts.url = "github:hercules-ci/flake-parts";
     home-manager = {

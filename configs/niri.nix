@@ -167,7 +167,7 @@
         XF86MonBrightnessDown allow-when-locked=true { spawn "${pkgs.swayosd}/bin/swayosd-client" "--brightness" "-10"; }
 
         // Overview
-        Mod+O repeat=false { toggle-overview; }
+        Mod+Tab repeat=false { toggle-overview; }
 
         // Quit window
         Mod+Q { close-window; }

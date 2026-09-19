@@ -45,12 +45,6 @@
                 type="rss"
             />
             <outline
-                text="pkgit master branch"
-                description="a universal system-agnostic package manager"
-                xmlUrl="https://git.symlinx.net/pkgit/atom"
-                type="rss"
-            />
-            <outline
                 text="xkcd"
                 description="xkcd.com: A webcomic of romance and math humor."
                 xmlUrl="https://xkcd.com/rss.xml"

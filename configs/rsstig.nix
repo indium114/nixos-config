@@ -50,6 +50,12 @@
                 xmlUrl="https://xkcd.com/rss.xml"
                 type="rss"
             />
+            <outline
+                text="Veronica Explains"
+                description="Linux mom, vintage tech enthusiast, nerdy musician."
+                xmlUrl="https://veronicaexplains.net/rss"
+                type="rss"
+            />
         </body>
     </opml>
   '';

@@ -16,6 +16,8 @@
       url = "github:nix-community/disko";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    # my programs
     recall = {
       url = "github:indium114/recall";
       inputs.nixpkgs.follows = "nixpkgs";

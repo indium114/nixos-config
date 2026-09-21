@@ -24,7 +24,6 @@
     ripgrep
     ncdu
     fd
-    television
     lutgen
     ffmpeg
     libXcursor

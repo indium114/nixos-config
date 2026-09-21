@@ -16,7 +16,6 @@
     inputs.satchel.packages.${pkgs.stdenv.hostPlatform.system}.satchel
     inputs.sorta.packages.${pkgs.stdenv.hostPlatform.system}.sorta
     inputs.rubbish.packages.${pkgs.stdenv.hostPlatform.system}.rubbish
-    inputs.ssuika.packages.${pkgs.stdenv.hostPlatform.system}.default
     inputs.bunkers.packages.${pkgs.stdenv.hostPlatform.system}.bunkers
     inputs.haal.packages.${pkgs.stdenv.hostPlatform.system}.haal
     inputs.termfarm.packages.${pkgs.stdenv.hostPlatform.system}.termfarm

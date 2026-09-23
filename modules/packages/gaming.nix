@@ -16,6 +16,7 @@
     supertux
     supertuxkart
     pandora-launcher
+    heroic
   ];
 
   programs.steam = {

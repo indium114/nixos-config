@@ -39,12 +39,6 @@
                 type="rss"
             />
             <outline
-                text="omnisearch master branch"
-                description="A modern lightweight metasearch engine with a clean design written in C."
-                xmlUrl="https://git.bwaaa.monster/omnisearch/atom"
-                type="rss"
-            />
-            <outline
                 text="xkcd"
                 description="xkcd.com: A webcomic of romance and math humor."
                 xmlUrl="https://xkcd.com/rss.xml"

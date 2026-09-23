@@ -1,0 +1,4 @@
+name = "Heroic Games Launcher"
+description = "Play games"
+icon = "󰞇"
+command = "heroic & sleep 5"

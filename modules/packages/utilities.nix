@@ -47,6 +47,7 @@
     cryptsetup
     caligula
     pika-backup
+    p7zip
   ];
 
   programs.appimage = {

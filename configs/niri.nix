@@ -276,7 +276,7 @@
 
         // Spawn applications
         Mod+Grave { spawn "${pkgs.alacritty}/bin/alacritty" "--config-file" "${./alacritty.toml}" "--title" "Spyglass" "-e" "spyglass"; }
-    	  Mod+Return { spawn "ghostty"; }
+    	  Mod+Return { spawn "ghostty" "+new-window"; }
     	  Mod+Semicolon { spawn "librewolf"; }
     	  Mod+Alt+L allow-when-locked=true { spawn "hyprlock"; }
     	  Mod+N { spawn "swaync-client" "-t"; }

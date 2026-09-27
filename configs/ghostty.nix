@@ -6,6 +6,7 @@
 
   programs.ghostty = {
     enable = true;
+    systemd.enable = true;
     settings = {
       font-family = "MartianMono NF Cond Med";
       window-padding-x = "8,8";

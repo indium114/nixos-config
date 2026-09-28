@@ -8,14 +8,12 @@
         "ref": "refs/heads/master",
         "rev": "acdd9e754a536d542099951e4c9a6acc8cdf1c51",
         "revCount": 45,
-        "shallow": false,
         "type": "git",
-        "url": "https://git.bwaaa.monster/beaker"
+        "url": "https://codeberg.org/indium114/beaker-mirror"
       },
       "original": {
-        "shallow": false,
         "type": "git",
-        "url": "https://git.bwaaa.monster/beaker"
+        "url": "https://codeberg.org/indium114/beaker-mirror"
       }
     },
     "bunkers": {
@@ -635,11 +633,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1790275434,
-        "narHash": "sha256-9dZF1EviQA/XKCjHChddQh7skrfKnZPSqPOqEeOKW0k=",
+        "lastModified": 1790365885,
+        "narHash": "sha256-iQ0ebhiVo64NktTnwft9hNxlFu4j5cvljVxyJaEVIP4=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "f2981148865f7390d187a91d4b1a3a7616047d6d",
+        "rev": "7b4c5ec4bedaf1e062bbc1bcaeddbc6bd242aa1b",
         "type": "github"
       },
       "original": {
@@ -870,11 +868,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1790185690,
-        "narHash": "sha256-xJ+X4hBtOcAFGBOe5nAMyMUeF9foJBmIOu3NjBqBycU=",
+        "lastModified": 1790578696,
+        "narHash": "sha256-ZoxIApko70jCdbH3l20HWXOBaT2HZd87orzd2yJ9dVE=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "4975466d324710c576dc11ad614684e6bd8cad8e",
+        "rev": "7a0f122f5090cf4c2ade2a13a0e229d4e19ba71f",
         "type": "github"
       },
       "original": {
@@ -924,11 +922,11 @@
         "omnisearch-src": "omnisearch-src"
       },
       "locked": {
-        "lastModified": 1789990494,
-        "narHash": "sha256-2h3PRv6G+FxNrT+NWO/X17og21h2fBIyLo0QUBJM/8s=",
+        "lastModified": 1790609826,
+        "narHash": "sha256-iRUCnsPNWqsjT5CletVExXjfoS0uAS/TFrrm5N6RZHs=",
         "owner": "indium114",
         "repo": "omnisearch-flake",
-        "rev": "b0c47438572f2229de5d521df1c6dae99ced8cc1",
+        "rev": "f1054321f9aadb579929c8ea4c8b75345a290671",
         "type": "github"
       },
       "original": {
@@ -945,14 +943,12 @@
         "ref": "refs/heads/master",
         "rev": "892acdc7f26df93735e0098ce62159571b31eb02",
         "revCount": 152,
-        "shallow": false,
         "type": "git",
-        "url": "https://git.bwaaa.monster/omnisearch"
+        "url": "https://codeberg.org/indium114/omnisearch-mirror"
       },
       "original": {
-        "shallow": false,
         "type": "git",
-        "url": "https://git.bwaaa.monster/omnisearch"
+        "url": "https://codeberg.org/indium114/omnisearch-mirror"
       }
     },
     "pricetag": {

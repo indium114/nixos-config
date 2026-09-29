@@ -12,6 +12,7 @@
     drawy
     presenterm
     calcurse
+    onlyoffice-desktopeditors
   ];
 
 }

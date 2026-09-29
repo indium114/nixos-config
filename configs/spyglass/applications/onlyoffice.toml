@@ -1,0 +1,4 @@
+name = "OnlyOffice"
+description = "Create and edit documents"
+icon = ""
+command = "onlyoffice-desktopeditors"

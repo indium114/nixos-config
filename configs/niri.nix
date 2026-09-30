@@ -35,14 +35,7 @@
         mode "1920x1080@60"
         scale 1
         transform "normal"
-        position x=1280 y=0
-    }
-
-    output "HDMI-A-1" {
-    	mode "1280x1024@60.020"
-    	scale 1
-    	transform "normal"
-    	position x=0 y=0
+        position x=0 y=0
     }
 
     // Env variables

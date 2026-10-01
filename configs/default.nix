@@ -30,6 +30,7 @@
     ./keychain.nix
     ./lazygit.nix
     ./mangohud.nix
+    ./mpvpaper.nix
     ./niri.nix
     ./nushell.nix
     ./qt.nix

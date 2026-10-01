@@ -76,8 +76,7 @@
     }
 
     // Startup apps
-    spawn-at-startup "awww-daemon"
-    spawn-at-startup "awww" "img" "${./wallpaper.jpg}"
+    spawn-at-startup "${pkgs.mpvpaper}/bin/mpvpaper" "--options='--loop-file=inf'" "ALL" "/home/indium114/Pictures/wall.mkv"
     spawn-at-startup "xwayland-satellite"
     spawn-at-startup "nm-applet"
     spawn-at-startup "protonvpn-app" "--start-minimized"

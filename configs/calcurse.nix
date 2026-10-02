@@ -36,7 +36,7 @@
     general.multipledays=yes
     general.periodicsave=0
     general.systemevents=yes
-    notification.command=${pkgs.libnotify}/bin/notify-send '\a'
+    notification.command=${pkgs.libnotify}/bin/notify-send Appointment "$(${pkgs.calcurse}/bin/calcurse --next)" --icon calendar
     notification.notifyall=all
     notification.warning=300
   '';

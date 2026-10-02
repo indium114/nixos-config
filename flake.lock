@@ -3,17 +3,19 @@
     "beaker-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1786917319,
-        "narHash": "sha256-4+UWuicypc7wEuLGwY1N372X1JF162DPSbjssZlfhhY=",
+        "lastModified": 1790704008,
+        "narHash": "sha256-Al/BE7uVRSmUGF/t1m0pWxF9jNgzdCVUrc5ZHkcPiQg=",
         "ref": "refs/heads/master",
-        "rev": "acdd9e754a536d542099951e4c9a6acc8cdf1c51",
-        "revCount": 45,
+        "rev": "10be7f581fb828e74f064ea7ad4fb0534ee8540a",
+        "revCount": 46,
+        "shallow": false,
         "type": "git",
-        "url": "https://codeberg.org/indium114/beaker-mirror"
+        "url": "https://git.bwaaa.space/beaker"
       },
       "original": {
+        "shallow": false,
         "type": "git",
-        "url": "https://codeberg.org/indium114/beaker-mirror"
+        "url": "https://git.bwaaa.space/beaker"
       }
     },
     "bunkers": {
@@ -633,11 +635,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1790928438,
-        "narHash": "sha256-ZuJbu8VQe/Qzy7GJdZ3Xv7adRllH1o4O7nqONtkhFbA=",
+        "lastModified": 1790955005,
+        "narHash": "sha256-EEQKUylD8zuRTmDFX4rbwsHQ+iZhqqOldYcFN8SLcE0=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "833540099ef43cbeb28b1e3f3c21901961edb48e",
+        "rev": "0560d64401a6d5370732a69d08bc4a6b135962d9",
         "type": "github"
       },
       "original": {
@@ -922,11 +924,11 @@
         "omnisearch-src": "omnisearch-src"
       },
       "locked": {
-        "lastModified": 1790609826,
-        "narHash": "sha256-iRUCnsPNWqsjT5CletVExXjfoS0uAS/TFrrm5N6RZHs=",
+        "lastModified": 1790968438,
+        "narHash": "sha256-5R8oH2SCELp+tIdkBZ0MTXnVkh2DFOf0C/zTGH0vRjc=",
         "owner": "indium114",
         "repo": "omnisearch-flake",
-        "rev": "f1054321f9aadb579929c8ea4c8b75345a290671",
+        "rev": "ce0b4b80d564a996dc398396cd6b4024764a6b3f",
         "type": "github"
       },
       "original": {
@@ -938,17 +940,19 @@
     "omnisearch-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1788494360,
-        "narHash": "sha256-OwKY25VZz7P9T7pQfC3lgqk1UR85K0hpc7NnBt4uEKo=",
+        "lastModified": 1790703874,
+        "narHash": "sha256-XxQcmiqlOwYU0CloQe0s+SGKkmULjSAVeL8IYOMyKlA=",
         "ref": "refs/heads/master",
-        "rev": "892acdc7f26df93735e0098ce62159571b31eb02",
-        "revCount": 152,
+        "rev": "a17f0238213ffb24a183117148252b1c60a8514c",
+        "revCount": 156,
+        "shallow": false,
         "type": "git",
-        "url": "https://codeberg.org/indium114/omnisearch-mirror"
+        "url": "https://git.bwaaa.space/omnisearch"
       },
       "original": {
+        "shallow": false,
         "type": "git",
-        "url": "https://codeberg.org/indium114/omnisearch-mirror"
+        "url": "https://git.bwaaa.space/omnisearch"
       }
     },
     "pricetag": {
@@ -959,11 +963,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1786355431,
-        "narHash": "sha256-0RvkfKPVgOi62+Fd7BLxpDv+52eRQq/ySM/GYNiKjNE=",
+        "lastModified": 1790969636,
+        "narHash": "sha256-sF669GdPtNwseL8to7kTDqpcEcUr1HyzHCrx9H2LCZ4=",
         "owner": "indium114",
         "repo": "pricetag",
-        "rev": "c20fe7237f94353a55e778f9cabb33e87d59c3bf",
+        "rev": "91bf031eda8bbaf3371629a528bf218d30b4c31d",
         "type": "github"
       },
       "original": {
@@ -1027,11 +1031,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1790189877,
-        "narHash": "sha256-naDR/Lfy7bioW2d+xFcHHbWbvJrrnHUWZISjM52j2IQ=",
+        "lastModified": 1790968511,
+        "narHash": "sha256-jlRzZo+RTq/WiB+Wyr9QrZ7Z9Ll66ZeK4BXmUxhC9q0=",
         "owner": "indium114",
         "repo": "rsstig",
-        "rev": "a8288bc6492822c5bce3acd7dfe41917ac848723",
+        "rev": "843a143a68c4a8785fe3c3528d423765c31fa76e",
         "type": "github"
       },
       "original": {

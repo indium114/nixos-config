@@ -76,7 +76,7 @@
     }
 
     // Startup apps
-    spawn-at-startup "${pkgs.mpvpaper}/bin/mpvpaper" "--mpv-options='--loop-file=inf --keep-open=always'" "ALL" "/home/indium114/Pictures/wall.mkv"
+    spawn-sh-at-startup "${pkgs.mpvpaper}/bin/mpvpaper --mpv-options='--loop-file=inf --keep-open=always' ALL /home/indium114/Pictures/wall.mkv"
     spawn-at-startup "xwayland-satellite"
     spawn-at-startup "nm-applet"
     spawn-at-startup "protonvpn-app" "--start-minimized"

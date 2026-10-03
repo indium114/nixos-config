@@ -20,5 +20,6 @@
     inputs.haal.packages.${pkgs.stdenv.hostPlatform.system}.haal
     inputs.termfarm.packages.${pkgs.stdenv.hostPlatform.system}.termfarm
     inputs.rsstig.packages.${pkgs.stdenv.hostPlatform.system}.rsstig
+    inputs.lanyard.packages.${pkgs.stdenv.hostPlatform.system}.lanyard
   ];
 }

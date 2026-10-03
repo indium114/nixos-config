@@ -74,6 +74,10 @@
       url = "github:indium114/zdir";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    lanyard = {
+      url = "github:indium114/lanyard";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =

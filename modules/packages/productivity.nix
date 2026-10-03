@@ -13,6 +13,7 @@
     presenterm
     calcurse
     onlyoffice-desktopeditors
+    rnote
   ];
 
 }

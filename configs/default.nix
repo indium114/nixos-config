@@ -27,6 +27,7 @@
     ./hyprlock.nix
     ./hyprpolkitagent.nix
     ./keepassxc.nix
+    ./lanyard.nix
     ./lazygit.nix
     ./mangohud.nix
     ./mpvpaper.nix

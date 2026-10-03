@@ -1,0 +1,4 @@
+name = "Rnote"
+description = "Take handwritten notes"
+icon = "󰙒"
+command = "rnote & sleep 5"

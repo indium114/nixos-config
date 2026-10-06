@@ -1,0 +1,4 @@
+name = "Metadata Cleaner"
+description = "Remove sensitive metadata from images"
+icon = ""
+command = "metadata-cleaner"

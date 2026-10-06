@@ -16,6 +16,7 @@
     blanket
     gnome-podcasts
     wf-recorder
+    metadata-cleaner
   ];
 
   programs.obs-studio.enable = true;

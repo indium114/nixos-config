@@ -674,11 +674,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1791056028,
-        "narHash": "sha256-1R8Tdg3rC60nVC/dVzni6Gq0XbhYCAMld2KG5V6u02w=",
+        "lastModified": 1791392912,
+        "narHash": "sha256-8iYse4szx4aUJZQfQbv2IkgfTcJgVfU+mHABJZQouME=",
         "owner": "indium114",
         "repo": "lanyard",
-        "rev": "39d9225696a95ab36cbdf419f63a90a1bbde6698",
+        "rev": "758fea6d8ed71f2deda5485792d899b3062a04ae",
         "type": "github"
       },
       "original": {

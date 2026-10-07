@@ -6,7 +6,6 @@
       url = "github:catppuccin/nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    uwu-colors.url = "github:q60/uwu_colors";
     flake-parts.url = "github:hercules-ci/flake-parts";
     home-manager = {
       url = "github:nix-community/home-manager";
@@ -17,7 +16,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    # my programs
+    # external programs
     recall = {
       url = "github:indium114/recall";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -78,6 +77,7 @@
       url = "github:indium114/lanyard";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    uwu-colors.url = "github:q60/uwu_colors";
   };
 
   outputs =

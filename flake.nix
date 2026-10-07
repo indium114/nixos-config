@@ -78,6 +78,10 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     uwu-colors.url = "github:q60/uwu_colors";
+    tg = {
+      url = "git+https://tangled.org/aly.codes/tg";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
